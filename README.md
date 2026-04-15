@@ -4,7 +4,9 @@
 
 <div align="center">
   <h2>
-    𝐇𝐞𝐥𝐥𝐨 𝐭𝐡𝐞𝐫𝐞, 𝐟𝐞𝐥𝐥𝐨𝐰 <𝚍𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛𝚜/>!
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=venom&height=200&text=F4GA&fontSize=80&color=0:FF1493,100:8A2BE2&fontColor=ffffff" />
+</p>
     <img src="https://user-images.githubusercontent.com/74038190/214644152-52f47eb3-5e31-4f47-8758-05c9468d5596.gif" width="25"/>
   </h2>
 </div>
