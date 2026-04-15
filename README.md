@@ -2,14 +2,24 @@
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,18,24,27,30&height=200&section=header&text=F4GA&fontSize=70&fontAlignY=35&desc=Backend%20Engineer&descAlignY=55&descSize=20&fontColor=ffffff&animation=fadeIn" width="100%" />
 </div>
-
-<!-- 💬 ИНТЕРАКТИВНОЕ ПРИВЕТСТВИЕ -->
-<div align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&duration=2800&pause=800&color=FF007F&center=true&vCenter=true&width=700&lines=%3E_+Go+%2F+Python+Backend+Developer;%3E_+%D0%A1%D1%82%D1%80%D0%BE%D1%8E+%D0%B2%D1%8B%D1%81%D0%BE%D0%BA%D0%BE%D0%BD%D0%B0%D0%B3%D1%80%D1%83%D0%B6%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5+%D1%81%D0%B5%D1%80%D0%B2%D0%B8%D1%81%D1%8B;%3E_+%D0%94%D0%BE%D0%B2%D0%BE%D0%B6%D1%83+%D0%B4%D0%BE+%D1%80%D0%B5%D0%B7%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D1%82%D0%B0;%3E_+%D0%9B%D1%8E%D0%B1%D0%BB%D1%8E+%D1%87%D0%B8%D1%81%D1%82%D1%83%D1%8E+%D0%B0%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D1%83;%3E_+%F0%9F%92%BB+%D0%9A%D0%BE%D0%B4%D0%B8%D0%BD%D0%B3+%D0%BF%D0%BE%D0%B4+%D1%81%D0%B8%D0%BD%D1%82%D0%B2%D0%B5%D0%B9%D0%B2" alt="Typing SVG" />
-  </a>
-</div>
-
+<!-- ASCII-АРТ ПРИВЕТСТВИЕ: i use arch / btw -->
+<p align="center">
+  <pre>
+  _                                         _       
+  (_)                                       | |      
+   _    _   _  ___ _____    _____  ____ ____| |__    
+  | |  | | | |/___) ___ |  (____ |/ ___) ___)  _ \   
+  | |  | |_| |___ | ____|  / ___ | |  ( (___| | | |  
+  |_|  |____/(___/|_____)  \_____|_|   \____)_| |_|  
+                                                     
+   _            
+  | |     _                                          
+  | |__ _| |_ _ _ _                                  
+  |  _ (_   _) | | |                                 
+  | |_) )| |_| | | |                                 
+  |____/  \__)\___/                                  
+  </pre>
+</p>
 <br />
 
 <!-- 🎸 МАТРИЧНЫЙ РАЗДЕЛИТЕЛЬ -->
