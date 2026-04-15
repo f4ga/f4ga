@@ -52,15 +52,6 @@
   </tr>
 </table>
 
-<br />
-[![ASCII Art](https://patorjk.com/software/taag/#p=display&f=BlurVision%20ASCII&t=i%20use%20arch%2C%20btw&x=none)](https://patorjk.com/software/taag/#p=display&f=BlurVision%20ASCII&t=i%20use%20arch%2C%20btw&x=none)
-<!-- 🕹️ ВТОРОЙ РАЗДЕЛИТЕЛЬ (РЕТРО-ТЕРМИНАЛ) -->
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="500" />
-</div>
-
-<br />
-
 <!-- 📊 ГЛАВНАЯ ПАНЕЛЬ СТАТИСТИКИ: 3D-ГРАФИК + ПРОДУКТИВНОСТЬ -->
 <div align="center">
   <!-- Стандартная статистика с неоновой темой -->
@@ -79,15 +70,14 @@
 </div>
 
 <br />
-
-<!-- 👾 КАСТОМНАЯ КАРТОЧКА ОТ SHIINASAKU -->
+## 👾 КАСТОМНАЯ КАРТОЧКА ОТ SHIINASAKU -->
 <div align="center">
   <img src="https://github-card.vercel.app/api?username=f4ga&theme=radical&show_icons=true&hide_border=true&bg_color=0d1117&title_color=FF007F&text_color=00F0FF&icon_color=FF007F" width="600" />
 </div>
 
 <br />
 
-<!-- 💀 ТРЕТИЙ РАЗДЕЛИТЕЛЬ (МАТРИЦА) -->
+## 💀 ТРЕТИЙ РАЗДЕЛИТЕЛЬ (МАТРИЦА) -->
 <div align="center">
   <img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79f-e264b5e54825.gif" width="500" />
 </div>
