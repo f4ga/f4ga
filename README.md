@@ -64,11 +64,6 @@
   </samp>
 </p>
 
-<!-- АНИМЕ-ГИФ -->
-<p align="center">
-  <img src="https://i.imgur.com/1Wm0OqB.gif" alt="anime coding late night" width="350"/>
-</p>
-
 <p align="center">
   <samp>
     <i>✦ • ✦ • ✦ • ✦ • ✦ • ✦ • ✦ • ✦ • ✦ • ✦ • ✦</i>
