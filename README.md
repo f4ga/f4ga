@@ -18,7 +18,7 @@
 
 <!-- 🌊 ВОЛНА СВЕРХУ -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,20,24,27&height=200&section=header&text=r&fontSize=50&fontColor=fff&animation=fadeIn&fontAlignY=35" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,20,24,27&height=200&section=header&text= &fontSize=50&fontColor=fff&animation=fadeIn&fontAlignY=35" />
 </p>
 
 ---
