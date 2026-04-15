@@ -54,6 +54,8 @@
   <img src="https://ssr-contributions-svg.vercel.app/_/f4ga?chart=3dbar&flatten=1&weeks=8&animation=wave&format=svg&gap=0.6&animation_frequency=0.2&animation_amplitude=20&theme=blue" />
 </div>
 
+![Terminal Identity](https://terminal-identity.vercel.app/api?username=f4ga&theme=dark&layout=simple)
+
 <h2>📝 Connect</h2>
 <div align="center">
   <a href="https://github.com/f4ga" target="_blank">
