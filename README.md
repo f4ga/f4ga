@@ -36,17 +36,11 @@
       <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=f4ga&layout=compact&theme=synthwave&hide_border=true&bg_color=0d1117&title_color=FF007F&text_color=00F0FF" width="350" />
     </td>
   </tr>
-</table>
-
-<!-- 📊 ГЛАВНАЯ ПАНЕЛЬ СТАТИСТИКИ: 3D-ГРАФИК + ПРОДУКТИВНОСТЬ -->
+</table>## 📊 GitHub Статистика
 <div align="center">
-  <!-- Стандартная статистика с неоновой темой -->
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=f4ga&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&title_color=FF007F&icon_color=00F0FF&text_color=c9d1d9" />
-  <!-- Streak stats -->
-  <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=f4ga&theme=radical&hide_border=true&background=0D1117&stroke=FF007F&ring=FF007F&fire=FF007F&currStreakLabel=00F0FF" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=f4ga&layout=compact&theme=radical&hide_border=true&bg_color=0d1117&title_color=FF007F&text_color=00F0FF" />
 </div>
-
-<br />
 
 <!-- 📈 ПРОДУКТИВНОСТЬ ПО ЧАСАМ (HEATMAP) -->
 <div align="center">
