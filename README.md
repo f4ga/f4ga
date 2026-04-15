@@ -1,107 +1,83 @@
+<!-- 
+  DESIGN SYSTEM: f4ga-profile
+  Designer Note: Чистый минимализм с одним акцентным цветом #FF007F. 
+  Убраны все тяжелые GIF. Оставлена одна капсула-волна в шапке для узнаваемости.
+  Hero-секция сразу дает ответ "Кто ты".
+-->
+
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=250&color=gradient&customColorList=12,18,24,27,30&text=F4GA&fontSize=70&fontAlignY=40&desc=Backend%20Developer&descAlignY=55&descSize=20&animation=fadeIn" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=180&color=gradient&customColorList=12,18,24,27,30&text=F4GA&fontSize=60&fontAlignY=35&desc=Backend%20Engineer%20%7C%20Go%20%7C%20Python&descAlignY=55&descSize=16&animation=fadeIn" width="100%" />
 </div>
 
 <br />
 
+<!-- 🎯 HERO + БЫСТРЫЕ ССЫЛКИ -->
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79f-e264b5e54825.gif" width="100%" />
-</div>
-
-<br />
-
-<br />
-
-<!-- 🧩 BENTO-СЕТКА: ОБО МНЕ + КАРТОЧКА ЯЗЫКОВ -->
-<table align="center">
-  <tr>
-    <td align="left" width="400">
-      <pre style="font-family: 'Fira Code', monospace; color: #c9d1d9; background: none; border: none;">
-<b style="color: #FF007F;">┌──┤ ОБО МНЕ ├───────────────┐</b>
-│                              │
-│  ▸  Backend-разработчик      │
-│  ▸  Строю высоконагруженные   │
-│     микросервисы (Go/Python)  │
-│  ▸  Чистая архитектура        │
-│  ▸  Автоматизирую всё         │
-│                              │
-│  <b style="color: #00F0FF;">└──┤ СТЕК ├────────────────┘</b>
-│  ▸  Go, Python, FastAPI       │
-│  ▸  PostgreSQL, Redis, Kafka  │
-│  ▸  Docker, gRPC, PyTorch     │
-│  ▸  Gin, Echo, Fiber          │
-└──────────────────────────────┘
-      </pre>
-    </td>
-    <td align="center" width="350">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=f4ga&layout=compact&theme=synthwave&hide_border=true&bg_color=0d1117&title_color=FF007F&text_color=00F0FF" width="350" />
-    </td>
-  </tr>
-<!-- 📊 СТАТИСТИКА (ТОЛЬКО ОДИН БЛОК, БЕЗ ДУБЛЯ) -->
-<div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=f4ga&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&title_color=FF007F&icon_color=00F0FF&text_color=c9d1d9" />
-</div>
-
-<!-- 📈 ПРОДУКТИВНОСТЬ ПО ЧАСАМ (HEATMAP) -->
-<div align="center">
-  <a href="https://productive-box.vercel.app">
-    <img src="https://productive-box.vercel.app/api?username=f4ga&theme=dark&hide_border=true&bg_color=0d1117&title_color=FF007F&text_color=00F0FF" width="600" />
+  <a href="https://github.com/f4ga?tab=repositories">
+    <img src="https://img.shields.io/badge/Repositories-12100E?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+  <a href="https://t.me/ebssy">
+    <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" />
+  </a>
+  <a href="mailto:e04579138@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
 </div>
 
 <br />
-<br />
 
-<!-- 🔗 КОНТАКТЫ -->
-<h2 align="center" style="font-weight: 400; letter-spacing: 3px; color: #FF007F;">🔗 CONNECT</h2>
+<!-- 🧠 СУТЬ ПРОЕКТА / О СЕБЕ (ЗАМЕНА ГРОМОЗДКОЙ ТАБЛИЦЫ) -->
+<h3 align="center">⚡ Строю высоконагруженные бэкенды на Go и Python</h3>
 
-<div align="center">
-  <a href="https://github.com/f4ga" target="_blank">
-    <img src="https://img.shields.io/badge/github-%2324292e.svg?style=for-the-badge&logo=github&logoColor=white" alt="github" />
-  </a>
-  <a href="https://t.me/ebssy" target="_blank">
-    <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="telegram" />
-  </a>
-  <a href="mailto:e04579138@gmail.com" target="_blank">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="email" />
-  </a>
-</div>
-
-<br />
-</div>
-<!-- ASCII-АРТ ПРИВЕТСТВИЕ: i use arch / btw -->
 <p align="center">
-  <pre>
-    ░▒▓█▓▒░      ░▒▓█▓▒░░▒▓█▓▒░░▒▓███████▓▒░▒▓████████▓▒░       ░▒▓██████▓▒░░▒▓███████▓▒░ ░▒▓██████▓▒░░▒▓█▓▒░░▒▓█▓▒░             ░▒▓███████▓▒░▒▓████████▓▒░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░ 
-    ░▒▓█▓▒░      ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░      ░▒▓█▓▒░             ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░             ░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░   ░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░ 
-    ░▒▓█▓▒░      ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░      ░▒▓█▓▒░             ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░      ░▒▓█▓▒░░▒▓█▓▒░             ░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░   ░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░ 
-    ░▒▓█▓▒░      ░▒▓█▓▒░░▒▓█▓▒░░▒▓██████▓▒░░▒▓██████▓▒░        ░▒▓████████▓▒░▒▓███████▓▒░░▒▓█▓▒░      ░▒▓████████▓▒░             ░▒▓███████▓▒░  ░▒▓█▓▒░   ░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░ 
-    ░▒▓█▓▒░      ░▒▓█▓▒░░▒▓█▓▒░      ░▒▓█▓▒░▒▓█▓▒░             ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░      ░▒▓█▓▒░░▒▓█▓▒░▒▓██▓▒░      ░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░   ░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░ 
-    ░▒▓█▓▒░      ░▒▓█▓▒░░▒▓█▓▒░      ░▒▓█▓▒░▒▓█▓▒░             ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓██▓▒░      ░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░   ░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░ 
-    ░▒▓█▓▒░       ░▒▓██████▓▒░░▒▓███████▓▒░░▒▓████████▓▒░      ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░░▒▓██████▓▒░░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░      ░▒▓███████▓▒░  ░▒▓█▓▒░    ░▒▓█████████████▓▒░  
-                                                                                                                   ░▒▓█▓▒░                                                      
-                                 
-  </pre>
+  <i>Чистая архитектура • Event-Driven • DevOps культура • AI/ML интеграции</i>
 </p>
 
-<!-- 👁️ СЧЁТЧИК ПОСЕТИТЕЛЕЙ -->
-<div align="center">
-  <a href="https://visitor-badge.laobi.icu/badge?page_id=f4ga.f4ga&left_color=black&right_color=FF007F&left_text=Profile%20Views">
-    <img src="https://visitor-badge.laobi.icu/badge?page_id=f4ga.f4ga&left_color=black&right_color=FF007F&left_text=Profile%20Views" />
-  </a>
-</div>
+<br />
+
+<!-- 🚀 БЫСТРЫЙ СТАРТ ДЛЯ КОНТРИБЬЮТОРОВ (Если бы это был проект) -->
+<!-- Поскольку это профиль, мы заменяем это блоком "Избранные репозитории" (Featured Work) -->
+<!-- Это ключевой блок для найма и коллабораций -->
+
+<table align="center">
+  <tr>
+    <td align="center" width="300">
+      <b>🧩 ИЗБРАННЫЕ РАБОТЫ</b><br />
+      <sub>кликни для перехода →</sub>
+    </td>
+    <td align="center" width="300">
+      <b>📊 АКТИВНОСТЬ</b>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <ul>
+        <li><b><a href="#">micro‑auth‑go</a></b> – gRPC сервис авторизации</li>
+        <li><b><a href="#">fast‑stream</a></b> – Kafka + ClickHouse агрегатор</li>
+        <li><b><a href="#">py‑infer</a></b> – Микросервис инференса ML моделей</li>
+        <li><i>...и еще <a href="https://github.com/f4ga?tab=repositories">15+ репозиториев</a></i></li>
+      </ul>
+    </td>
+    <td valign="top" align="center">
+      <!-- Оставляем ОДИН чистый виджет статистики, без дублирования -->
+      <img src="https://github-readme-stats.vercel.app/api?username=f4ga&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&title_color=FF007F&icon_color=00F0FF&text_color=c9d1d9&hide=contribs,prs" width="280" />
+    </td>
+  </tr>
+</table>
 
 <br />
 
-<!-- 🧬 ПАСХАЛКА (СВЁРНУТЫЙ ASCII) -->
-<details>
-  <summary><b>🧬 SYSTEM BOOT SEQUENCE (click to expand)</b></summary>
-  <br>
-  
-  ```ansi
-  [38;2;255;0;127m> INITIALIZING NEURAL INTERFACE...[0m
-  [38;2;0;240;255m> LOADING BACKEND MODULES...[0m
-  [38;2;157;0;255m> CONNECTING TO SECURE CHANNEL...[0m
-  [38;2;255;0;127m> ACCESS GRANTED. WELCOME, F4GA.[0m
-</details>
-<!-- 🌊 НЕОНОВАЯ ВОЛНА В ПОДВАЛЕ --><div align="center"> <img src="https://capsule-render.vercel.app/api?type=slice&color=gradient&customColorList=12,18,24,27,30&height=150&section=footer&text=EOF&fontSize=30&fontColor=ffffff&animation=fadeIn" width="100%" /> </div><div align="center"> <samp>⚡ made with caffeine, lo‑fi & anime ⚡</samp> </div> ```
+<!-- 💻 ТЕХНИЧЕСКИЙ СТЕК (ВИЗУАЛИЗАЦИЯ ИКОНКАМИ) -->
+<div align="center">
+  <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" />
+  <img src="https://img.shields.io/badge/Kafka-231F20?style=for-the-badge&logo=apache-kafka&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/gRPC-2CA5E0?style=for-the-badge&logo=google&logoColor=white" />
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
+</div>
+
+<br />
