@@ -1,6 +1,6 @@
-<!-- 🌊 НЕОНОВАЯ ШАПКА -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,18,24,27,30&height=200&section=header&text=F4GA&fontSize=70&fontAlignY=35&desc=Backend%20Developer&descAlignY=55&descSize=20&fontColor=f0f0f0&animation=fadeIn" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=250&color=gradient&customColorList=12,18,24,27,30&text=F4GA&fontSize=70&fontAlignY=40&desc=Backend%20Developer&descAlignY=55&descSize=20&animation=fadeIn" width="100%" />
+</div>
 </div>
 <!-- ASCII-АРТ ПРИВЕТСТВИЕ: i use arch / btw -->
 <p align="center">
