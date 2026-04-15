@@ -1,7 +1,4 @@
-<!-- АНИМЕ-БАННЕР -->
-<p align="center">
-  <img src="https://i.imgur.com/3KdZf4R.jpeg" alt="anime workspace" width="100%"/>
-</p>
+
 
 <!-- ASCII-АРТ ПРИВЕТСТВИЕ -->
 <p align="center">
