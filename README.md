@@ -16,11 +16,10 @@
 </div>
 
 
-<!-- 🌊 ВОЛНА СВЕРХУ -->
+<!-- Матрица -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,20,24,27&height=200&section=header&text=&fontSize=5&fontColor=fff&animation=fadeIn&fontAlignY=35" />
+  <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%" />
 </p>
-
 ---
 
 ### ✦ Обо мне
