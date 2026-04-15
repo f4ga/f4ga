@@ -1,102 +1,102 @@
+<!-- 🌊 НЕОНОВАЯ ШАПКА -->
 <div align="center">
-  <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/d48893bd-0757-481c-8d7e-ba3e163feae7" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,18,24,27,30&height=200&section=header&text=F4GA&fontSize=70&fontAlignY=35&desc=Backend%20Engineer&descAlignY=55&descSize=20&fontColor=ffffff&animation=fadeIn" width="100%" />
 </div>
 
+<!-- 💬 ИНТЕРАКТИВНОЕ ПРИВЕТСТВИЕ -->
 <div align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=F0883E&center=true&vCenter=true&width=600&lines=Go+%2F+Python+Backend+Developer;Строю+высоконагруженные+сервисы;Довожу+до+результата;Люблю+чистую+архитектуру" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&duration=2800&pause=800&color=FF007F&center=true&vCenter=true&width=700&lines=%3E_+Go+%2F+Python+Backend+Developer;%3E_+%D0%A1%D1%82%D1%80%D0%BE%D1%8E+%D0%B2%D1%8B%D1%81%D0%BE%D0%BA%D0%BE%D0%BD%D0%B0%D0%B3%D1%80%D1%83%D0%B6%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5+%D1%81%D0%B5%D1%80%D0%B2%D0%B8%D1%81%D1%8B;%3E_+%D0%94%D0%BE%D0%B2%D0%BE%D0%B6%D1%83+%D0%B4%D0%BE+%D1%80%D0%B5%D0%B7%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D1%82%D0%B0;%3E_+%D0%9B%D1%8E%D0%B1%D0%BB%D1%8E+%D1%87%D0%B8%D1%81%D1%82%D1%83%D1%8E+%D0%B0%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D1%83;%3E_+%F0%9F%92%BB+%D0%9A%D0%BE%D0%B4%D0%B8%D0%BD%D0%B3+%D0%BF%D0%BE%D0%B4+%D1%81%D0%B8%D0%BD%D1%82%D0%B2%D0%B5%D0%B9%D0%B2" alt="Typing SVG" />
   </a>
 </div>
 
 <br />
 
-<!-- Элегантный разделитель -->
+<!-- 🎸 МАТРИЧНЫЙ РАЗДЕЛИТЕЛЬ -->
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="500" />
+  <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%" />
 </div>
 
 <br />
 
-### ✦ Обо мне
-
+<!-- 🧩 BENTO-СЕТКА: ОБО МНЕ + КАРТОЧКА ЯЗЫКОВ -->
 <table align="center">
   <tr>
-    <td>
-      <div style="background: #0d1117; border-radius: 24px; padding: 28px; border: 1px solid #30363d; box-shadow: 0 8px 24px rgba(0,0,0,0.4);">
-        <p style="color: #c9d1d9; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 16px; line-height: 1.7; margin: 0;">
-          <b style="color: #f0883e; font-size: 18px;">Go / Python Backend Developer</b><br><br>
-          <span style="color: #8b949e;">▹</span> Продумываю нагрузку на старте<br>
-          <span style="color: #8b949e;">▹</span> Чистая архитектура и понятная структура<br>
-          <span style="color: #8b949e;">▹</span> Автоматизация всего, что можно автоматизировать<br><br>
-          <b style="color: #f0883e;">Что я умею:</b><br>
-          <span style="color: #8b949e;">▹</span> Микросервисы (gRPC, REST, очереди)<br>
-          <span style="color: #8b949e;">▹</span> Проектирование БД и оптимизация запросов<br>
-          <span style="color: #8b949e;">▹</span> RAG‑системы и гибридный поиск<br>
-          <span style="color: #8b949e;">▹</span> Доведение проектов до production
-        </p>
-      </div>
+    <td align="left" width="400">
+      <pre style="font-family: 'Fira Code', monospace; color: #c9d1d9; background: none; border: none;">
+<b style="color: #FF007F;">┌──┤ ОБО МНЕ ├───────────────┐</b>
+│                              │
+│  ▸  Backend-разработчик      │
+│  ▸  Строю высоконагруженные   │
+│     микросервисы (Go/Python)  │
+│  ▸  Чистая архитектура        │
+│  ▸  Автоматизирую всё         │
+│                              │
+│  <b style="color: #00F0FF;">└──┤ СТЕК ├────────────────┘</b>
+│  ▸  Go, Python, FastAPI       │
+│  ▸  PostgreSQL, Redis, Kafka  │
+│  ▸  Docker, gRPC, PyTorch     │
+│  ▸  Gin, Echo, Fiber          │
+└──────────────────────────────┘
+      </pre>
     </td>
-    <td>
-      <div style="background: #0d1117; border-radius: 24px; padding: 24px; border: 1px solid #30363d; box-shadow: 0 8px 24px rgba(0,0,0,0.4);">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=f4ga&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=f0883e&text_color=c9d1d9" width="300" />
-      </div>
+    <td align="center" width="350">
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=f4ga&layout=compact&theme=synthwave&hide_border=true&bg_color=0d1117&title_color=FF007F&text_color=00F0FF" width="350" />
     </td>
   </tr>
 </table>
 
 <br />
 
-<!-- Тонкая градиентная линия -->
+<!-- 🏆 ТРОФЕИ (ДЛЯ ВАУ-ЭФФЕКТА) -->
 <div align="center">
-  <hr style="width: 70%; border: 0; height: 1px; background: linear-gradient(90deg, transparent, #f0883e80, transparent);" />
+  <img src="https://github-profile-trophy.vercel.app/?username=f4ga&theme=radical&no-frame=true&no-bg=true&margin-w=15&margin-h=15&column=8" />
 </div>
 
 <br />
 
-<h2 align="center" style="font-weight: 400; letter-spacing: 3px; color: #c9d1d9;">⚡ TECH STACK</h2>
+<!-- 🕹️ ВТОРОЙ РАЗДЕЛИТЕЛЬ (РЕТРО-ТЕРМИНАЛ) -->
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="500" />
+</div>
 
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=go,python,fastapi,postgres,redis,kafka,docker,git,githubactions,pytorch,linux,bash,gin&perline=7" />
+<br />
+
+<!-- 📊 ГЛАВНАЯ ПАНЕЛЬ СТАТИСТИКИ: 3D-ГРАФИК + ПРОДУКТИВНОСТЬ -->
+<div align="center">
+  <!-- Стандартная статистика с неоновой темой -->
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=f4ga&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&title_color=FF007F&icon_color=00F0FF&text_color=c9d1d9" />
+  <!-- Streak stats -->
+  <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=f4ga&theme=radical&hide_border=true&background=0D1117&stroke=FF007F&ring=FF007F&fire=FF007F&currStreakLabel=00F0FF" />
+</div>
+
+<br />
+
+<!-- 📈 ПРОДУКТИВНОСТЬ ПО ЧАСАМ (HEATMAP) -->
+<div align="center">
+  <a href="https://productive-box.vercel.app">
+    <img src="https://productive-box.vercel.app/api?username=f4ga&theme=dark&hide_border=true&bg_color=0d1117&title_color=FF007F&text_color=00F0FF" width="600" />
   </a>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Echo-4B8BBE?style=flat-square&logo=go&logoColor=white" />
-  <img src="https://img.shields.io/badge/Fiber-00ADD8?style=flat-square&logo=go&logoColor=white" />
-  <img src="https://img.shields.io/badge/gRPC-2b2b2b?style=flat-square&logo=grpc&logoColor=white" />
-</p>
-
-<br />
-
-<div align="center">
-  <hr style="width: 70%; border: 0; height: 1px; background: linear-gradient(90deg, transparent, #f0883e80, transparent);" />
 </div>
 
 <br />
 
-<h2 align="center" style="font-weight: 400; letter-spacing: 3px; color: #c9d1d9;">📊 ANALYTICS</h2>
-
+<!-- 👾 КАСТОМНАЯ КАРТОЧКА ОТ SHIINASAKU -->
 <div align="center">
-  <img height="160em" src="https://github-readme-stats.vercel.app/api?username=f4ga&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=f0883e&icon_color=8b949e&text_color=c9d1d9" />
-  <img height="160em" src="https://github-readme-streak-stats.herokuapp.com/?user=f4ga&theme=dark&hide_border=true&background=0D1117&stroke=f0883e&ring=f0883e&fire=f0883e&currStreakLabel=c9d1d9" />
+  <img src="https://github-card.vercel.app/api?username=f4ga&theme=radical&show_icons=true&hide_border=true&bg_color=0d1117&title_color=FF007F&text_color=00F0FF&icon_color=FF007F" width="600" />
 </div>
 
 <br />
 
+<!-- 💀 ТРЕТИЙ РАЗДЕЛИТЕЛЬ (МАТРИЦА) -->
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=f4ga&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=f0883e&text_color=c9d1d9" width="400" />
+  <img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79f-e264b5e54825.gif" width="500" />
 </div>
 
 <br />
 
-<div align="center">
-  <hr style="width: 70%; border: 0; height: 1px; background: linear-gradient(90deg, transparent, #f0883e80, transparent);" />
-</div>
-
-<br />
-
-<h2 align="center" style="font-weight: 400; letter-spacing: 3px; color: #c9d1d9;">🔗 CONNECT</h2>
+<!-- 🔗 КОНТАКТЫ -->
+<h2 align="center" style="font-weight: 400; letter-spacing: 3px; color: #FF007F;">🔗 CONNECT</h2>
 
 <div align="center">
   <a href="https://github.com/f4ga" target="_blank">
@@ -112,19 +112,24 @@
 
 <br />
 
+<!-- 👁️ СЧЁТЧИК ПОСЕТИТЕЛЕЙ -->
 <div align="center">
-  <a href="https://visitor-badge.laobi.icu/badge?page_id=f4ga.f4ga&left_color=black&right_color=f0883e&left_text=Profile%20Views">
-    <img src="https://visitor-badge.laobi.icu/badge?page_id=f4ga.f4ga&left_color=black&right_color=f0883e&left_text=Profile%20Views" />
+  <a href="https://visitor-badge.laobi.icu/badge?page_id=f4ga.f4ga&left_color=black&right_color=FF007F&left_text=Profile%20Views">
+    <img src="https://visitor-badge.laobi.icu/badge?page_id=f4ga.f4ga&left_color=black&right_color=FF007F&left_text=Profile%20Views" />
   </a>
 </div>
 
 <br />
 
-<!-- Ещё один минималистичный разделитель -->
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79f-e264b5e54825.gif" width="400" />
-</div>
-
-<div align="center">
-  <samp style="color: #8b949e;">⚡ made with caffeine, lo‑fi & anime ⚡</samp>
-</div>
+<!-- 🧬 ПАСХАЛКА (СВЁРНУТЫЙ ASCII) -->
+<details>
+  <summary><b>🧬 SYSTEM BOOT SEQUENCE (click to expand)</b></summary>
+  <br>
+  
+  ```ansi
+  [38;2;255;0;127m> INITIALIZING NEURAL INTERFACE...[0m
+  [38;2;0;240;255m> LOADING BACKEND MODULES...[0m
+  [38;2;157;0;255m> CONNECTING TO SECURE CHANNEL...[0m
+  [38;2;255;0;127m> ACCESS GRANTED. WELCOME, F4GA.[0m
+</details>
+<!-- 🌊 НЕОНОВАЯ ВОЛНА В ПОДВАЛЕ --><div align="center"> <img src="https://capsule-render.vercel.app/api?type=slice&color=gradient&customColorList=12,18,24,27,30&height=150&section=footer&text=EOF&fontSize=30&fontColor=ffffff&animation=fadeIn" width="100%" /> </div><div align="center"> <samp>⚡ made with caffeine, lo‑fi & anime ⚡</samp> </div> ```
