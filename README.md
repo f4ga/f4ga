@@ -47,14 +47,7 @@
 </table>
 
 <br />
-
-<!-- 🏆 ТРОФЕИ (ДЛЯ ВАУ-ЭФФЕКТА) -->
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=f4ga&theme=radical&no-frame=true&no-bg=true&margin-w=15&margin-h=15&column=8" />
-</div>
-
-<br />
-
+[![ASCII Art](https://patorjk.com/software/taag/#p=display&f=BlurVision%20ASCII&t=i%20use%20arch%2C%20btw&x=none)](https://patorjk.com/software/taag/#p=display&f=BlurVision%20ASCII&t=i%20use%20arch%2C%20btw&x=none)
 <!-- 🕹️ ВТОРОЙ РАЗДЕЛИТЕЛЬ (РЕТРО-ТЕРМИНАЛ) -->
 <div align="center">
   <img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="500" />
