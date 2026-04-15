@@ -1,10 +1,9 @@
-<!-- БАННЕР -->
-<p align="center">
-  <img src="https://i.imgur.com/3KdZf4R.jpeg" alt="anime workspace" width="100%"/>
-</p>
+
 
 # 💻 Привет, я
 ### Go/Python Backend Developer
+
+![f4ga's Stats](https://github-readme-stats.vercel.app/api?username=f4ga&theme=blueberry&show_icons=true&hide_border=false&count_private=false)
 
 ---
 
