@@ -3,57 +3,57 @@
 </div>
 
 <div align="center">
-  <h2>
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=venom&height=200&text=F4GA&fontSize=80&color=0:FF1493,100:8A2BE2&fontColor=ffffff" />
-</p>
-    <img src="https://user-images.githubusercontent.com/74038190/214644152-52f47eb3-5e31-4f47-8758-05c9468d5596.gif" width="25"/>
-  </h2>
-</div>
-
-<div align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=F75C7E&center=true&vCenter=true&width=600&lines=Go+%2F+Python+Backend+Developer;%D0%A1%D1%82%D1%80%D0%BE%D1%8E+%D0%B2%D1%8B%D1%81%D0%BE%D0%BA%D0%BE%D0%BD%D0%B0%D0%B3%D1%80%D1%83%D0%B6%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5+%D1%81%D0%B5%D1%80%D0%B2%D0%B8%D1%81%D1%8B;%D0%94%D0%BE%D0%B2%D0%BE%D0%B6%D1%83+%D0%B4%D0%BE+%D1%80%D0%B5%D0%B7%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D1%82%D0%B0;%D0%9B%D1%8E%D0%B1%D0%BB%D1%8E+%D1%87%D0%B8%D1%81%D1%82%D1%83%D1%8E+%D0%B0%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D1%83" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=F0883E&center=true&vCenter=true&width=600&lines=Go+%2F+Python+Backend+Developer;Строю+высоконагруженные+сервисы;Довожу+до+результата;Люблю+чистую+архитектуру" alt="Typing SVG" />
   </a>
 </div>
 
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%" />
-</p>
+<br />
+
+<!-- Элегантный разделитель -->
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="500" />
+</div>
+
+<br />
 
 ### ✦ Обо мне
 
 <table align="center">
   <tr>
     <td>
-      <div style="background: linear-gradient(145deg, #0d1117, #161b22); border-radius: 24px; padding: 24px; border: 1px solid #30363d; box-shadow: 0 8px 30px rgba(0,0,0,0.5);">
-        <p style="color: #e6edf3; font-family: 'Segoe UI', sans-serif; font-size: 16px; line-height: 1.6;">
-          <b style="color: #f778ba;">Go/Python Backend Developer</b><br><br>
-          <span style="color: #8b949e;">⚡</span> Продумываю нагрузку на старте<br>
-          <span style="color: #8b949e;">🏛️</span> Придерживаюсь чистой архитектуры и понятной структуры кода<br>
-          <span style="color: #8b949e;">🤖</span> Автоматизирую всё, что можно автоматизировать<br><br>
-          <b style="color: #f778ba;">Что я умею:</b><br>
-          <span style="color: #8b949e;">🔹</span> Строить микросервисы с gRPC, REST и очередями<br>
-          <span style="color: #8b949e;">🔹</span> Проектировать схемы БД и оптимизировать запросы<br>
-          <span style="color: #8b949e;">🔹</span> Внедрять RAG-системы и гибридный поиск<br>
-          <span style="color: #8b949e;">🔹</span> Доводить проекты до production-ready состояния
+      <div style="background: #0d1117; border-radius: 24px; padding: 28px; border: 1px solid #30363d; box-shadow: 0 8px 24px rgba(0,0,0,0.4);">
+        <p style="color: #c9d1d9; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 16px; line-height: 1.7; margin: 0;">
+          <b style="color: #f0883e; font-size: 18px;">Go / Python Backend Developer</b><br><br>
+          <span style="color: #8b949e;">▹</span> Продумываю нагрузку на старте<br>
+          <span style="color: #8b949e;">▹</span> Чистая архитектура и понятная структура<br>
+          <span style="color: #8b949e;">▹</span> Автоматизация всего, что можно автоматизировать<br><br>
+          <b style="color: #f0883e;">Что я умею:</b><br>
+          <span style="color: #8b949e;">▹</span> Микросервисы (gRPC, REST, очереди)<br>
+          <span style="color: #8b949e;">▹</span> Проектирование БД и оптимизация запросов<br>
+          <span style="color: #8b949e;">▹</span> RAG‑системы и гибридный поиск<br>
+          <span style="color: #8b949e;">▹</span> Доведение проектов до production
         </p>
       </div>
     </td>
     <td>
-      <div style="background: #0d1117; border-radius: 24px; padding: 16px; border: 1px solid #30363d; box-shadow: 0 8px 30px rgba(0,0,0,0.5);">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=f4ga&layout=compact&theme=radical&hide_border=true&bg_color=0d1117&title_color=f778ba&text_color=c9d1d9" width="300" />
+      <div style="background: #0d1117; border-radius: 24px; padding: 24px; border: 1px solid #30363d; box-shadow: 0 8px 24px rgba(0,0,0,0.4);">
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=f4ga&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=f0883e&text_color=c9d1d9" width="300" />
       </div>
     </td>
   </tr>
 </table>
 
----
+<br />
 
-<h1 align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="40"/>
-  Tech Stack
-</h1>
+<!-- Тонкая градиентная линия -->
+<div align="center">
+  <hr style="width: 70%; border: 0; height: 1px; background: linear-gradient(90deg, transparent, #f0883e80, transparent);" />
+</div>
+
+<br />
+
+<h2 align="center" style="font-weight: 400; letter-spacing: 3px; color: #c9d1d9;">⚡ TECH STACK</h2>
 
 <p align="center">
   <a href="https://skillicons.dev">
@@ -62,54 +62,45 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Echo-4B8BBE?style=for-the-badge&logo=go&logoColor=white" />
-  <img src="https://img.shields.io/badge/Fiber-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
+  <img src="https://img.shields.io/badge/Echo-4B8BBE?style=flat-square&logo=go&logoColor=white" />
+  <img src="https://img.shields.io/badge/Fiber-00ADD8?style=flat-square&logo=go&logoColor=white" />
+  <img src="https://img.shields.io/badge/gRPC-2b2b2b?style=flat-square&logo=grpc&logoColor=white" />
 </p>
 
-
-
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,20,24,27&height=200&section=futter&text=&fontSize=50&fontColor=fff&animation=fadeIn&fontAlignY=35" />
-</p>
-
-
-<h2 align="center">📈 GitHub Analytics</h2>
+<br />
 
 <div align="center">
-  <!-- Карточка с основной статистикой и графиком активности в одном ряду -->
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=f4ga&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&title_color=f778ba&icon_color=58a6ff&text_color=c9d1d9" />
-  <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=f4ga&theme=radical&hide_border=true&background=0D1117&stroke=f778ba&ring=f778ba&fire=58a6ff&currStreakLabel=c9d1d9" />
+  <hr style="width: 70%; border: 0; height: 1px; background: linear-gradient(90deg, transparent, #f0883e80, transparent);" />
 </div>
 
-<br>
+<br />
+
+<h2 align="center" style="font-weight: 400; letter-spacing: 3px; color: #c9d1d9;">📊 ANALYTICS</h2>
 
 <div align="center">
-  <!-- Визуальный 3D график контрибуций (замени ник на свой) -->
-  <img src="https://ssr-contributions-svg.vercel.app/_/f4ga?chart=3dbar&flatten=1&weeks=8&animation=wave&format=svg&gap=0.6&animation_frequency=0.2&animation_amplitude=20&theme=blue" width="800" />
+  <img height="160em" src="https://github-readme-stats.vercel.app/api?username=f4ga&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=f0883e&icon_color=8b949e&text_color=c9d1d9" />
+  <img height="160em" src="https://github-readme-streak-stats.herokuapp.com/?user=f4ga&theme=dark&hide_border=true&background=0D1117&stroke=f0883e&ring=f0883e&fire=f0883e&currStreakLabel=c9d1d9" />
 </div>
-<table align="center">
-  <tr>
-    <td>
-      <img src="https://github-readme-stats.vercel.app/api?username=f4ga&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&title_color=f778ba&icon_color=58a6ff&text_color=c9d1d9" width="400" />
-    </td>
-    <td>
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user=f4ga&theme=radical&hide_border=true&background=0D1117&stroke=f778ba&ring=f778ba&fire=58a6ff&currStreakLabel=c9d1d9" width="400" />
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2" align="center">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=f4ga&layout=compact&theme=radical&hide_border=true&bg_color=0d1117&title_color=f778ba&text_color=c9d1d9" width="400" />
-    </td>
-  </tr>
-</table>
----
 
-<h2 align="center">📝 Connect</h2>
+<br />
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=f4ga&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=f0883e&text_color=c9d1d9" width="400" />
+</div>
+
+<br />
+
+<div align="center">
+  <hr style="width: 70%; border: 0; height: 1px; background: linear-gradient(90deg, transparent, #f0883e80, transparent);" />
+</div>
+
+<br />
+
+<h2 align="center" style="font-weight: 400; letter-spacing: 3px; color: #c9d1d9;">🔗 CONNECT</h2>
 
 <div align="center">
   <a href="https://github.com/f4ga" target="_blank">
-    <img src="https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white" alt="github" />
+    <img src="https://img.shields.io/badge/github-%2324292e.svg?style=for-the-badge&logo=github&logoColor=white" alt="github" />
   </a>
   <a href="https://t.me/ebssy" target="_blank">
     <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="telegram" />
@@ -119,21 +110,21 @@
   </a>
 </div>
 
-<br>
+<br />
 
 <div align="center">
-  <a href="https://visitor-badge.laobi.icu/badge?page_id=f4ga.f4ga&left_color=black&right_color=darkpink&left_text=Profile%20Views">
-    <img src="https://visitor-badge.laobi.icu/badge?page_id=f4ga.f4ga&left_color=black&right_color=darkpink&left_text=Profile%20Views" />
+  <a href="https://visitor-badge.laobi.icu/badge?page_id=f4ga.f4ga&left_color=black&right_color=f0883e&left_text=Profile%20Views">
+    <img src="https://visitor-badge.laobi.icu/badge?page_id=f4ga.f4ga&left_color=black&right_color=f0883e&left_text=Profile%20Views" />
   </a>
 </div>
 
-<br>
+<br />
 
+<!-- Ещё один минималистичный разделитель -->
 <div align="center">
-  <samp>⚡ made with caffeine, lo-fi and anime ⚡</samp>
+  <img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79f-e264b5e54825.gif" width="400" />
 </div>
 
-<!-- Финальная гифка-разделитель -->
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79f-e264b5e54825.gif" width="400">
+  <samp style="color: #8b949e;">⚡ made with caffeine, lo‑fi & anime ⚡</samp>
 </div>
