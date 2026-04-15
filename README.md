@@ -88,7 +88,21 @@
   <!-- Визуальный 3D график контрибуций (замени ник на свой) -->
   <img src="https://ssr-contributions-svg.vercel.app/_/f4ga?chart=3dbar&flatten=1&weeks=8&animation=wave&format=svg&gap=0.6&animation_frequency=0.2&animation_amplitude=20&theme=blue" width="800" />
 </div>
-
+<table align="center">
+  <tr>
+    <td>
+      <img src="https://github-readme-stats.vercel.app/api?username=f4ga&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&title_color=f778ba&icon_color=58a6ff&text_color=c9d1d9" width="400" />
+    </td>
+    <td>
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user=f4ga&theme=radical&hide_border=true&background=0D1117&stroke=f778ba&ring=f778ba&fire=58a6ff&currStreakLabel=c9d1d9" width="400" />
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=f4ga&layout=compact&theme=radical&hide_border=true&bg_color=0d1117&title_color=f778ba&text_color=c9d1d9" width="400" />
+    </td>
+  </tr>
+</table>
 ---
 
 <h2 align="center">📝 Connect</h2>
