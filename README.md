@@ -18,7 +18,7 @@
 
 <!-- 🌊 ВОЛНА СВЕРХУ -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,20,24,27&height=200&section=header&text=&fontSize=50&fontColor=fff&animation=fadeIn&fontAlignY=35" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,20,24,27&height=200&section=header&text=&fontSize=5&fontColor=fff&animation=fadeIn&fontAlignY=35" />
 </p>
 
 ---
@@ -69,12 +69,12 @@
 </p>
 
 
-<!-- ТВОЙ ОСНОВНОЙ КОНТЕНТ -->
 
-<!-- 🌊 ВОЛНА СНИЗУ -->
+
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,20,24,27&height=150&section=footer" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,20,24,27&height=200&section=futter&text=&fontSize=50&fontColor=fff&animation=fadeIn&fontAlignY=35" />
 </p>
+
 
 <h2 align="center">📈 GitHub Analytics</h2>
 
