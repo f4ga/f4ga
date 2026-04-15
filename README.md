@@ -37,10 +37,9 @@
       <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=f4ga&layout=compact&theme=synthwave&hide_border=true&bg_color=0d1117&title_color=FF007F&text_color=00F0FF" width="350" />
     </td>
   </tr>
-</table>## 📊 GitHub Статистика
+<!-- 📊 СТАТИСТИКА (ТОЛЬКО ОДИН БЛОК, БЕЗ ДУБЛЯ) -->
 <div align="center">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=f4ga&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&title_color=FF007F&icon_color=00F0FF&text_color=c9d1d9" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=f4ga&layout=compact&theme=radical&hide_border=true&bg_color=0d1117&title_color=FF007F&text_color=00F0FF" />
 </div>
 
 <!-- 📈 ПРОДУКТИВНОСТЬ ПО ЧАСАМ (HEATMAP) -->
@@ -51,18 +50,6 @@
 </div>
 
 <br />
-## 👾 КАСТОМНАЯ КАРТОЧКА ОТ SHIINASAKU -->
-<div align="center">
-  <img src="https://github-card.vercel.app/api?username=f4ga&theme=radical&show_icons=true&hide_border=true&bg_color=0d1117&title_color=FF007F&text_color=00F0FF&icon_color=FF007F" width="600" />
-</div>
-
-<br />
-
-## 💀 ТРЕТИЙ РАЗДЕЛИТЕЛЬ (МАТРИЦА) -->
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79f-e264b5e54825.gif" width="500" />
-</div>
-
 <br />
 
 <!-- 🔗 КОНТАКТЫ -->
