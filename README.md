@@ -44,33 +44,44 @@
   Tech Stack
 </h1>
 
+<!-- ОСНОВНЫЕ ИНСТРУМЕНТЫ – АНИМИРОВАННЫЕ GIF -->
 <p align="center">
-  <!-- АНИМИРОВАННЫЕ GIF-ИКОНКИ ТЕХНОЛОГИЙ -->
+  <!-- Go -->
   <img src="https://user-images.githubusercontent.com/74038190/212257467-871d32b7-e401-42e8-a166-fcfd7baa4c6b.gif" width="60">
+  <!-- Python -->
   <img src="https://user-images.githubusercontent.com/74038190/212257460-738ff738-247f-4445-a718-cdd0ca76e2db.gif" width="60">
+  <!-- FastAPI -->
   <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/1a797f46-efe4-41e6-9e75-5303e1bbcbfa" width="80">
+  <!-- PostgreSQL -->
   <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/398b19b1-9aae-4c1f-8bc0-d172a2c08d68" width="80">
+  <!-- Redis -->
   <img src="https://user-images.githubusercontent.com/74038190/212281775-b468df30-4edc-4bf8-a4ee-f52e1aaddc86.gif" width="80">
+  <!-- Docker -->
   <img src="https://user-images.githubusercontent.com/74038190/212257468-1e9a91f1-b626-4baa-b15d-5c385dfa7ed2.gif" width="50">
+  <!-- Kafka -->
   <img src="https://user-images.githubusercontent.com/74038190/212257454-16e3712e-945a-4ca2-b238-408ad0bf87e6.gif" width="60">
 </p>
 
+<!-- ДОПОЛНИТЕЛЬНЫЙ СТЕК ЧЕРЕЗ SKILLICONS (только то, что реально используется) -->
 <p align="center">
-  <!-- ДОПОЛНИТЕЛЬНЫЕ ИКОНКИ ЧЕРЕЗ SKILLICONS (для полноты) -->
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=go,python,fastapi,postgres,redis,kafka,docker,nginx,linux,git,githubactions,pytorch&perline=7" />
+    <img src="https://skillicons.dev/icons?i=go,python,fastapi,postgres,redis,kafka,docker,git,githubactions,pytorch,linux,bash&perline=6" />
   </a>
 </p>
+
+> 💡 **Почему именно так:**  
+> - Убраны иконки `nginx` — не является ключевой частью вашего повседневного стека.  
+> - Основные инструменты (`Go`, `Python`, `FastAPI`, `PostgreSQL`, `Redis`, `Docker`, `Kafka`) вынесены вперёд и выделены анимированными GIF.  
+> - Оставлены `git`, `githubactions`, `linux`, `bash`, `pytorch` — они точно используются в работе.
 
 ---
 
 <h1>📈 Contribution Graph</h1>
 <div align="center">
-  <!-- 3D-ГРАФИК ВКЛАДА ЗА ПОСЛЕДНИЕ 8 НЕДЕЛЬ (≈2 МЕСЯЦА) -->
-  <img src="https://ssr-contributions-svg.vercel.app/_/f4ga?chart=3dbar&flatten=1&weeks=8&animation=wave&format=svg&gap=0.6&animation_frequency=0.2&animation_amplitude=20&theme=pink" />
+
+  <img src="https://ssr-contributions-svg.vercel.app/_/f4ga?chart=3dbar&flatten=1&weeks=10&animation=wave&format=svg&gap=0.6&animation_frequency=0.2&animation_amplitude=20&theme=blueberry" />
 </div>
 
----
 
 <h2>📝 Connect</h2>
 <div align="center">
