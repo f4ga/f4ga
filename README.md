@@ -22,14 +22,14 @@
 
 ### ✦ Обо мне
 
-Привет! Я бэкенд-разработчик, который получает удовольствие от создания надёжных и производительных систем.  
+Привет! Я бэкенд-разработчик
 Мой основной инструментарий — **Go** и **Python**.  
-Люблю проектировать архитектуру, копаться в базах данных и внедрять AI туда, где это действительно нужно.
+Люблю проектировать архитектуру,создавать отказоустойчивые решения, копаться в базах данных и внедрять AI 
 
 **Как я работаю:**  
-- Продумываю нагрузку на старте, а не когда сервер уже дымится  
+- Продумываю нагрузку на старте
 - Придерживаюсь чистой архитектуры и понятной структуры кода  
-- Автоматизирую всё, что можно автоматизировать (спасибо CI/CD и Docker)  
+- Автоматизирую всё, что можно автоматизировать
 
 **Что я умею:**  
 - Строить микросервисы с gRPC, REST и очередями  
@@ -44,7 +44,7 @@
   Tech Stack
 </h1>
 
-<!-- ОСНОВНЫЕ ИНСТРУМЕНТЫ – АНИМИРОВАННЫЕ GIF -->
+<!-- ОСНОВНЫЕ ИНСТРУМЕНТЫ – АНИМИРОВАННЫЕ GIF (ТОЛЬКО БЭКЕНД) -->
 <p align="center">
   <!-- Go -->
   <img src="https://user-images.githubusercontent.com/74038190/212257467-871d32b7-e401-42e8-a166-fcfd7baa4c6b.gif" width="60">
@@ -62,26 +62,20 @@
   <img src="https://user-images.githubusercontent.com/74038190/212257454-16e3712e-945a-4ca2-b238-408ad0bf87e6.gif" width="60">
 </p>
 
-<!-- ДОПОЛНИТЕЛЬНЫЙ СТЕК ЧЕРЕЗ SKILLICONS (только то, что реально используется) -->
+<!-- ДОПОЛНИТЕЛЬНЫЙ СТЕК ЧЕРЕЗ SKILLICONS (включая Gin, Echo, Fiber) -->
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=go,python,fastapi,postgres,redis,kafka,docker,git,githubactions,pytorch,linux,bash&perline=6" />
+    <img src="https://skillicons.dev/icons?i=pytorch,linux,bash,gin,echo,fiber&perline=8" />
   </a>
 </p>
-
-> 💡 **Почему именно так:**  
-> - Убраны иконки `nginx` — не является ключевой частью вашего повседневного стека.  
-> - Основные инструменты (`Go`, `Python`, `FastAPI`, `PostgreSQL`, `Redis`, `Docker`, `Kafka`) вынесены вперёд и выделены анимированными GIF.  
-> - Оставлены `git`, `githubactions`, `linux`, `bash`, `pytorch` — они точно используются в работе.
 
 ---
 
 <h1>📈 Contribution Graph</h1>
 <div align="center">
-
-  <img src="https://ssr-contributions-svg.vercel.app/_/f4ga?chart=3dbar&flatten=1&weeks=10&animation=wave&format=svg&gap=0.6&animation_frequency=0.2&animation_amplitude=20&theme=blueberry" />
+  <!-- НЕОБЫЧНЫЙ СИНИЙ 3D-ГРАФИК С ВОЛНОЙ -->
+  <img src="https://ssr-contributions-svg.vercel.app/_/f4ga?chart=3dbar&flatten=1&weeks=8&animation=wave&format=svg&gap=0.6&animation_frequency=0.2&animation_amplitude=20&theme=blue" />
 </div>
-
 
 <h2>📝 Connect</h2>
 <div align="center">
@@ -96,12 +90,3 @@
   </a>
 </div>
 
----
-
-<div align="center">
-  <img src="https://profile-counter.glitch.me/f4ga/count.svg" />
-</div>
-
-<div align="center">
-  <samp>⚡ made with caffeine, lo-fi and anime ⚡</samp>
-</div>
