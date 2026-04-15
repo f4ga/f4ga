@@ -54,7 +54,47 @@
   <img src="https://ssr-contributions-svg.vercel.app/_/f4ga?chart=3dbar&flatten=1&weeks=8&animation=wave&format=svg&gap=0.6&animation_frequency=0.2&animation_amplitude=20&theme=blue" />
 </div>
 
-![Terminal Identity](https://terminal-identity.vercel.app/api?username=f4ga&theme=dark&layout=simple)
+<table width="100%">
+  <tr>
+    <td align="center">
+      <div style="background: #0a0e12; border-radius: 20px; padding: 20px; max-width: 600px; margin: 0 auto; font-family: 'SF Mono', 'Fira Code', monospace; border: 1px solid #2a3a3a; box-shadow: 0 8px 20px rgba(0,0,0,0.4);">
+        <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 18px; border-bottom: 1px solid #1e2a2e; padding-bottom: 12px;">
+          <div style="display: flex; gap: 6px;">
+            <div style="width: 12px; height: 12px; background: #ff5f56; border-radius: 50%;"></div>
+            <div style="width: 12px; height: 12px; background: #ffbd2e; border-radius: 50%;"></div>
+            <div style="width: 12px; height: 12px; background: #27c93f; border-radius: 50%;"></div>
+          </div>
+          <span style="color: #8b9bb0; font-size: 12px; margin-left: 8px;">zsh — ~/dev/f4ga/stats</span>
+        </div>
+        <div style="color: #3ecf8e; font-weight: 500;">$ git stats --user f4ga</div>
+        <div style="margin-top: 12px;">
+          <div style="color: #c0d0e0; margin: 6px 0;">Commits (last 30d):   <strong style="color: #f5c278;">47</strong></div>
+          <div style="color: #c0d0e0; margin: 6px 0;">Lines added:          <strong style="color: #f5c278;">3 204</strong></div>
+          <div style="color: #c0d0e0; margin: 6px 0;">Lines removed:        <strong style="color: #f5c278;">1 098</strong></div>
+          <div style="color: #c0d0e0; margin: 6px 0;">Top language:         <strong style="color: #f5c278;">Go (58%)</strong></div>
+          <div style="color: #c0d0e0; margin: 6px 0;">Most active day:      <strong style="color: #f5c278;">Thursday</strong></div>
+          <div style="color: #c0d0e0; margin: 6px 0;">Most active hour:     <strong style="color: #f5c278;">23:00 (CET)</strong></div>
+        </div>
+        <div style="height: 1px; background: linear-gradient(90deg, #1e2f3a, #2c4a3e, #1e2f3a); margin: 18px 0 12px;"></div>
+        <div style="display: flex; align-items: center; gap: 6px;">
+          <span style="color: #3ecf8e;">➜</span>
+          <span style="color: #7aa2f7;">~/code</span>
+          <span style="display: inline-block; width: 10px; height: 16px; background-color: #3ecf8e; animation: blink 1s step-end infinite;"></span>
+        </div>
+        <div style="font-size: 10px; color: #4b6a6f; text-align: right; margin-top: 16px; border-top: 1px solid #18232c; padding-top: 12px;">
+          ⚡ статистика зафиксирована: 2026-04-16 | профиль @f4ga
+        </div>
+      </div>
+    </td>
+  </tr>
+</table>
+
+<style>
+  @keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+  }
+</style>
 
 <h2>📝 Connect</h2>
 <div align="center">
