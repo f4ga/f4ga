@@ -15,12 +15,11 @@
   </a>
 </div>
 
-<!-- 🌊 Визуальный разделитель -->
-<br>
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="700">
-</div>
-<br>
+
+<!-- 🌊 ВОЛНА СВЕРХУ -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,20,24,27&height=200&section=header&text=Welcome%20to%20my%20Lair&fontSize=50&fontColor=fff&animation=fadeIn&fontAlignY=35" />
+</p>
 
 ---
 
@@ -69,12 +68,13 @@
   <img src="https://img.shields.io/badge/Fiber-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
 </p>
 
-<!-- Ещё один разделитель -->
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
-</div>
 
----
+<!-- ТВОЙ ОСНОВНОЙ КОНТЕНТ -->
+
+<!-- 🌊 ВОЛНА СНИЗУ -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,20,24,27&height=150&section=footer" />
+</p>
 
 <h2 align="center">📈 GitHub Analytics</h2>
 
