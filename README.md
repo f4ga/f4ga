@@ -31,17 +31,16 @@
 <!-- 🧠 3. ОБО МНЕ -->
 <h3 align="center">
   <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px"> 
-    Строю отказоустойчивые системы 
+    Я программист, делаю клац клац 
   <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30">
 </h3>
 <p align="center">
-  <i>«Чистая архитектура • Event-Driven • DevOps • AI/ML интеграции»</i>
+  <i>«Clean architecture • Event-Driven • DevOps • AI/ML integration»</i>
 </p>
 
-<br />
 
 <!-- 🛸 СТЕК -->
-<h3 align="center">🛸 СТЕК</h3>
+<h3 align="center">🛸 Stack</h3>
 <div align="center">
   <!-- Go -->
   <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
@@ -71,8 +70,8 @@
 
 <br />
 
-<!-- 🚀 6. ИЗБРАННЫЕ ПРОЕКТЫ -->
-<h2 align="center">📁 Избранные проекты</h2>
+<!-- 🚀 -->
+<h2 align="center">📁 Избранные проекты </h2>
 
 <table align="center">
   <tr><td width="600">
