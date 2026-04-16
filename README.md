@@ -67,12 +67,7 @@
   <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" />
 </div>
 
-<br />
-
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=f4ga&theme=radical&no-frame=true&row=2&column=3&margin-w=15&margin-h=15" width="80%" />
-</div>
+<br /
 
 <br />
 
