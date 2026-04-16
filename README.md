@@ -8,7 +8,7 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&height=180&color=gradient&customColorList=12,18,24,27,30&text=%20&fontSize=50&fontAlignY=35&desc=&animation=fadeIn" width="100%" />
 </div>
 
-<br />
+
 
 <!-- 🎯 2. КНОПКИ БЫСТРОГО ДОСТУПА -->
 <div align="center">
