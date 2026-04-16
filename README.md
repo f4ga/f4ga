@@ -161,9 +161,3 @@
 </div>
 
 <br />
-
-<!-- 🌊 9. ФУТЕР -->
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=slice&color=gradient&customColorList=12,18,24,27,30&height=150&section=footer&text=EOF&fontSize=30&fontColor=ffffff&animation=fadeIn" width="100%" />
-  <samp>⚡ made with caffeine, lo‑fi & passion for backend ⚡</samp>
-</div>
