@@ -40,8 +40,8 @@
 
 <br />
 
-<!-- 🛸 4. ТЕХНИЧЕСКИЙ СТЕК (ОТКРЫТ) -->
-<h3 align="center">🛸 ТЕХНИЧЕСКИЙ СТЕК</h3>
+<!-- 🛸 СТЕК -->
+<h3 align="center">🛸 СТЕК</h3>
 <div align="center">
   <!-- Go -->
   <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
@@ -69,10 +69,8 @@
 
 <br />
 
-<!-- 🏆 5. ДОСТИЖЕНИЯ И СТАТИСТИКА -->
+
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=f4ga&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&title_color=FF007F&icon_color=00F0FF&text_color=c9d1d9&include_all_commits=true&count_private=true" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=f4ga&layout=compact&theme=radical&hide_border=true&bg_color=0d1117&title_color=FF007F&text_color=00F0FF&hide=html,css" />
   <img src="https://github-profile-trophy.vercel.app/?username=f4ga&theme=radical&no-frame=true&row=2&column=3&margin-w=15&margin-h=15" width="80%" />
 </div>
 
