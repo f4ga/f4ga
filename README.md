@@ -1,7 +1,4 @@
-<!-- 
-  🎨 DESIGN SYSTEM: F4GA PROFILE v2.1
-  Логичный порядок: знакомство → навыки → доказательства → работы → пасхалка
--->
+
 
 <!-- 🌌 1. ГЛАВНЫЙ ЭКРАН (HERO) -->
 <div align="center">
@@ -34,11 +31,11 @@
 <!-- 🧠 3. ОБО МНЕ -->
 <h3 align="center">
   <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px"> 
-  Строю высоконагруженные бэкенды. 
+    Строю отказоустойчивые системы 
   <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30">
 </h3>
 <p align="center">
-  <i>«Чистая архитектура • Event-Driven • DevOps культура • AI/ML интеграции»</i>
+  <i>«Чистая архитектура • Event-Driven • DevOps • AI/ML интеграции»</i>
 </p>
 
 <br />
