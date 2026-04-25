@@ -14,96 +14,100 @@
   <a href="https://github.com/f4ga"><img src="https://img.shields.io/badge/⭐_Follow-FF007F?style=for-the-badge&logo=github&logoColor=white" /></a>
 </div>
 
-<!-- 🧠 3. ABOUT -->
-<h3 align="center">
-  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px"> 
-  LSM · MVCC · ACID · gRPC
-</h3>
-<p align="center">
-  <i>«Build your own database. It teaches you more than a hundred CRUD apps.»</i>
-</p>
+---
 
-<!-- 🛸 4. STACK -->
-<h3 align="center">🛸 Core stack</h3>
-<div align="center">
-  <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
-  <img src="https://img.shields.io/badge/gRPC-2CA5E0?style=for-the-badge&logo=google&logoColor=white" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
-  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" />
-</div>
+## 👩‍💻 About me (facts)
 
-<br />
+- Backend developer — Go daily, Python when it fits
+- Write systems from scratch: storage engines, microservices, CLI tools
+- Read production database sources (BadgerDB, BoltDB, PebbleDB) to learn real-world design
+- Always finish projects: fully functional, tested, documented
+- Write unit tests, integration tests, benchmarks. CI must stay green.
+- Use Linux, Docker, Prometheus, GitHub Actions every day
 
-<!-- 🚀 5. MAIN PROJECT (SCORIADB - MVP) -->
-<h2 align="center">⚡ Key project</h2>
+## 🛸 Stack
 
-<div align="center">
-  <h3>🪨 ScoriaDB — embedded transactional KV store in Go</h3>
-  <p><b>LSM · MVCC · ACID · gRPC · Web UI</b></p>
-  <a href="https://github.com/f4ga/ScoriaDB"><img src="https://img.shields.io/badge/📦_github.com/f4ga/ScoriaDB-FF007F?style=for-the-badge&logo=github" /></a>
-</div>
+| Area | Tech |
+|------|------|
+| **Go** | net/http, gRPC, unsafe, mmap, sync, pprof, testing, benchmarks |
+| **Python** | FastAPI, Celery, aiogram, Pytest |
+| **Storage** | PostgreSQL (tsvector, pgvector), Redis, SQLite, my own LSM engine |
+| **Infra** | Docker, Docker Compose, GitHub Actions, Nginx, Bash |
+| **Observability** | Prometheus, Flower, custom /health, /ready, /metrics |
 
-<br />
+## ⚡ Main project
 
-**What I built from scratch (MVP, fully working):**
+### 🪨 ScoriaDB — embedded transactional KV store in Go
 
-| Component | Implementation |
-|-----------|----------------|
-| **LSM Engine** | MemTable (B‑tree), SSTable with Bloom + range filter, Leveled compaction |
-| **Value Log** | WiscKey + mmap → zero‑copy reads for large values (>64 bytes) |
-| **WAL + MANIFEST** | Write‑ahead log (CRC32) + manifest with fsync, crash recovery |
-| **MVCC** | Snapshot isolation, inverted timestamps, tombstone support |
-| **Transactions** | WriteBatch (atomic) + interactive optimistic transactions, explicit `ErrConflict` |
-| **Write Stall Controller** | 3‑level backpressure (Soft / Hard / MemTable stall), Prometheus metrics |
-| **Column Families** | Isolated LSM instances + atomic cross‑CF writes |
-| **gRPC API** | Unary + server‑streaming Scan, reflection |
-| **REST + WebSocket** | HTTP gateway, live key updates |
-| **CLI** | Cobra‑based: get/set/del/scan/txn + interactive REPL |
-| **Web UI** | React + TypeScript + Tailwind (embedded via `embed.FS`) |
-| **Observability** | `/metrics` (Prometheus), `/health`, `/ready` |
-| **DevOps** | Docker Compose, GitHub Actions (lint, test, license‑check) |
-| **Licensing** | Apache 2.0 (full text + headers + CI check) |
+[github.com/f4ga/ScoriaDB](https://github.com/f4ga/ScoriaDB)
 
-🔗 **Full code + design docs:** [github.com/f4ga/ScoriaDB](https://github.com/f4ga/ScoriaDB)
+I built an LSM-based database from scratch. No forks, no wrappers.
+
+**Storage engine**
+- MemTable (B‑tree) + SSTable with block index, Bloom filter, range filter (min/max key)
+- Leveled compaction
+- WAL with CRC32, crash recovery
+- Value Log (WiscKey + mmap): values >64 bytes → separate file, zero‑copy reads
+- MANIFEST: SSTable metadata log with fsync, consistent recovery
+- Write Stall Controller: 3‑level backpressure (Soft / Hard / MemTable stall), Prometheus metrics
+- VFS abstraction for disk failure testing
+
+**MVCC & transactions**
+- Inverted timestamps → Snapshot Isolation
+- WriteBatch (atomic batch)
+- Interactive transactions: `startTS`, local buffer, conflict check on commit → `ErrConflict`
+
+**Column Families**
+- Isolated LSM instances per family
+- Atomic writes across families via WriteBatch
+
+**Network & interfaces**
+- Embedded API (`pkg/scoria`)
+- gRPC (unary + server‑streaming Scan)
+- REST gateway
+- WebSocket for live key updates
+- CLI (Cobra): get/set/del/scan/txn + interactive REPL
+- Web UI (React + TypeScript + Tailwind) embedded via `embed.FS`
+
+**DevOps & quality**
+- Docker Compose — one command to run everything
+- GitHub Actions: lint, test, license‑check
+- Prometheus `/metrics`, health checks `/health` and `/ready`
+- Unit tests, integration tests, benchmarks
+- Apache 2.0 license, headers in every file, CI enforcement
+
+## 📁 Other projects
+
+**CaseKeeper** — Telegram bot for team case management.  
+Go, PostgreSQL (tsvector), Redis, FSM. Roles, audit, Russian full‑text search, export.
+
+**AVDI-shell** — Distributed infrastructure diagnostics.  
+Go, gRPC, WebSocket, PostgreSQL, Redis. Agent‑server, real‑time metrics, live logs.
+
+**Hybrid RAG** — Hybrid search (semantic + lexical) over documents.  
+Python, FastAPI, pgvector, ruBERT, E5. Chunking, BM25.
+
+**SSH Arena** — Multiplayer real‑time RTS in terminal over SSH.  
+Go, SSH, SQLite, ANSI graphics. 20ms game loop, auto‑save.
+
+**Review Bot** — Async Telegram bot that generates reviews via GigaChat.  
+Python, aiogram, Celery, Redis, Flower.
+
+**Expense Tracker** — Personal finance web app.  
+Python, FastAPI, PostgreSQL, JWT, rate limiting, Pytest.
+
+**Quizzbattle** — Backend for AI‑generated quizzes.  
+Python, FastAPI, 500+ RPS, fallback/retry.
+
+## 📫 Where to find me
+
+- Telegram: [@ebssy](https://t.me/ebssy)
+- Email: e04579138@gmail.com
+- GitHub: [github.com/f4ga](https://github.com/f4ga)
 
 ---
 
-<!-- 📁 6. OTHER PROJECTS -->
-<h2 align="center">📁 Other projects</h2>
-
-<table align="center">
-  <tr><td width="500">
-    <b>🤖 CaseKeeper</b><br />
-    Telegram bot: team case management, Russian full‑text search (tsvector), roles, audit.<br />
-    <i>Go · PostgreSQL · Redis · FSM</i><br />
-    <a href="https://github.com/f4ga/CaseKeeper"><img src="https://img.shields.io/badge/repo-FF007F?style=flat-square&logo=github" /></a>
-   </tr>
-  <tr><td width="500">
-    <b>🖥️ AVDI‑shell</b><br />
-    Distributed infrastructure diagnostic: agent + central server, real‑time logs via WebSocket.<br />
-    <i>Go · gRPC · PostgreSQL · Redis</i><br />
-    <a href="https://github.com/42x-SAU/AVDI-shell"><img src="https://img.shields.io/badge/repo-FF007F?style=flat-square&logo=github" /></a>
-   </tr>
-  <tr><td width="500">
-    <b>🔍 Hybrid RAG</b><br />
-    Hybrid search (semantic + lexical) with ruBERT, E5, pgvector.<br />
-    <i>Python · FastAPI · PostgreSQL · Transformers</i><br />
-    <a href="https://github.com/f4ga/Hybrid-rag-service"><img src="https://img.shields.io/badge/repo-FF007F?style=flat-square&logo=github" /></a>
-   </tr>
-  <tr><td width="500">
-    <b>🎮 SSH Arena</b><br />
-    Multiplayer real‑time RTS over SSH, ANSI graphics, 20ms game loop.<br />
-    <i>Go · SSH · SQLite</i><br />
-    <a href="https://github.com/f4ga/SSH-rts-online-game"><img src="https://img.shields.io/badge/repo-FF007F?style=flat-square&logo=github" /></a>
-   </tr>
-</table>
-
-<!-- 🧬 7. HIDDEN MATRIX (optional) -->
+<!-- 🧬 ASCII-ART (спойлер) -->
 <details>
   <summary><b>🕹️ $> DISPLAY MATRIX</b></summary>
   <br />
@@ -122,7 +126,7 @@
 
 <br />
 
-<!-- 👁️ 8. VISITOR COUNTER -->
+<!-- 👁️ VISITOR COUNTER -->
 <div align="center">
   <a href="https://visitor-badge.laobi.icu/badge?page_id=f4ga.f4ga">
     <img src="https://visitor-badge.laobi.icu/badge?page_id=f4ga.f4ga&left_color=black&right_color=FF007F&left_text=Profile%20Views" />
