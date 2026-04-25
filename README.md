@@ -1,16 +1,17 @@
 
-  <!-- печатающийся текст поверх (с отступом, чтобы не сливался с волной) -->
-  <div style="position: relative; z-index: 0; padding-top: 80px;">
+<!-- 🌌 1. HERO — волна + печатающийся текст внутри -->
+<div align="center" style="position: relative; width: 100%; min-height: 280px; overflow: hidden;">
+  <!-- Волна (фон) -->
+  <div style="position: absolute; top: 0; left: 0; width: 100%; z-index: 0;">
+    <img src="https://capsule-render.vercel.app/api?type=waving&height=280&color=gradient&customColorList=12,18,24,27,30&text=%20&fontSize=50&fontAlignY=35&desc=&animation=fadeIn" width="100%" style="display: block;" />
+  </div>
+  <!-- Печатающийся текст поверх волны -->
+  <div style="position: relative; z-index: 1; display: flex; justify-content: center; align-items: center; height: 280px;">
     <a href="https://git.io/typing-svg">
       <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=32&duration=4000&pause=1000&color=FF007F&center=true&vCenter=true&width=800&height=100&lines=%24+whoami+%3E+f4ga;Backend+%7C+Systems+Programming;Go+%7C+Python+%7C+LSM+%7C+MVCC" alt="Typing SVG" />
     </a>
-<!-- 🌌 1. HERO (фоновая волна + печатающийся текст поверх) -->
-<div align="center" style="position: relative; min-height: 100px;">
-  <!-- фоновая волна (без текста) -->
-  <div style="position: absolute; top: 0; left: 0; width: 100%; z-index: 0;">
-    <img src="https://capsule-render.vercel.app/api?type=waving&height=280&color=gradient&customColorList=12,18,24,27,30&text=%20&fontSize=50&fontAlignY=35&desc=&animation=fadeIn" width="100%" />
   </div>
-  </div>
+</div>
 </div>
 <!-- 🎯 2. CONTACT -->
 <div align="center">
