@@ -51,14 +51,6 @@
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=f4ga&theme=radical&hide_border=true&background=0d1117&stroke=FF007F&ring=FF007F&fire=FF007F&currStreakLabel=FF007F" alt="streak stats" />
 </div>
 
-## 📈 Activity Graph
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=f4ga&theme=react-dark&bg_color=0d1117&hide_border=true&area=true&color=FF007F&line=FF007F&point=FF007F" />
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=f4ga&theme=minimal&bg_color=0d1117&hide_border=true&area=true&color=FF007F&line=FF007F&point=FF007F" />
-  </picture>
-</div>
 ## ⚡ Main project
 
 ### 🪨 ScoriaDB — embedded transactional KV store in Go
