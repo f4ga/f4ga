@@ -42,6 +42,15 @@
 | **Infra** | Docker, Docker Compose, GitHub Actions, Nginx, Bash |
 | **Observability** | Prometheus, Flower, custom /health, /ready, /metrics |
 
+## 📊 GitHub Stats
+
+<div align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=f4ga&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=FF007F&icon_color=FF007F&text_color=c9d1d9" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=f4ga&layout=compact&langs_count=8&theme=radical&hide_border=true&bg_color=0d1117&title_color=FF007F&text_color=c9d1d9" />
+  <br />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=f4ga&theme=radical&hide_border=true&background=0d1117&stroke=FF007F&ring=FF007F&fire=FF007F&currStreakLabel=FF007F" alt="streak stats" />
+</div>
+
 ## ⚡ Main project
 
 ### 🪨 ScoriaDB — embedded transactional KV store in Go
