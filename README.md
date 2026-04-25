@@ -5,7 +5,7 @@
     <img src="https://capsule-render.vercel.app/api?type=waving&height=280&color=gradient&customColorList=12,18,24,27,30&text=%20&fontSize=50&fontAlignY=35&desc=&animation=fadeIn" width="100%" />
   </div>
   <!-- печатающийся текст поверх (с отступом, чтобы не сливался с волной) -->
-  <div style="position: relative; z-index: 1; padding-top: 80px;">
+  <div style="position: relative; z-index: 0; padding-top: 80px;">
     <a href="https://git.io/typing-svg">
       <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=32&duration=4000&pause=1000&color=FF007F&center=true&vCenter=true&width=800&height=100&lines=%24+whoami+%3E+f4ga;Backend+%7C+Systems+Programming;Go+%7C+Python+%7C+LSM+%7C+MVCC" alt="Typing SVG" />
     </a>
