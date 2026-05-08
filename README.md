@@ -16,6 +16,7 @@
 <!-- 🎯 2. CONTACT -->
 <div align="center">
   <a href="https://github.com/f4ga?tab=repositories"><img src="https://img.shields.io/badge/📁_Repos-12100E?style=for-the-badge&logo=github&logoColor=white" /></a>
+  <a href="https://habr.com/ru/users/norzy/"><img src="https://img.shields.io/badge/Habr-5F9DBA?style=for-the-badge&labelColor=5F9DBA&color=5F9DBA" /></a>
   <a href="https://t.me/ebssy"><img src="https://img.shields.io/badge/💬_Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" /></a>
   <a href="mailto:e04579138@gmail.com"><img src="https://img.shields.io/badge/📧_Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
   <a href="https://github.com/f4ga"><img src="https://img.shields.io/badge/⭐_Follow-FF007F?style=for-the-badge&logo=github&logoColor=white" /></a>
