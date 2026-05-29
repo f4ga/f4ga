@@ -41,30 +41,7 @@ Three‑node cluster in Docker, PCAP export for Wireshark, `/chaos` endpoint for
 Filters millions of log lines by time, level, JSON fields. Live tail, percentiles, gRPC server mode.  
 Single binary, no dependencies.  
 *This taught me: building practical tools on top of my own storage engine, and that dogfooding catches bugs fast.*
-
-📦 **CaseKeeper** — Telegram bot for team case management.  
-Go, PostgreSQL (tsvector), Redis, FSM, roles, audit.
-
-🖥️ **AVDI‑shell** — distributed infrastructure diagnostics.  
-Agent‑server over gRPC + WebSocket, task orchestration, real‑time metrics.
-
-📄 **Hybrid RAG** — hybrid search (semantic + lexical).  
-Python, FastAPI, pgvector, ruBERT, E5, BM25.
-
-🎮 **SSH Arena** — multiplayer real‑time strategy over SSH.  
-Go, SSH server, SQLite, ANSI graphics, 20ms game loop.
-
-💰 **Expense Tracker** — personal finance web app.  
-Python, FastAPI, PostgreSQL, JWT, rate limiting, Pytest >85%.
-
-❓ **Quizzbattle** — backend for AI‑generated quizzes.  
-Python, FastAPI, 500+ RPS, fallback/retry, WebSocket real‑time.
-
-**What I'm looking for:**
-
-A paid internship or a Junior/Junior+ position (35 hours/week, remote). I dive deep quickly, write maintainable code, test it, document it, and explain complex things simply. No cgo, no black boxes.
-
----
+ing, Pytest >85%.
 
 ## 🛠️ Tech stack
 
@@ -106,8 +83,6 @@ A paid internship or a Junior/Junior+ position (35 hours/week, remote). I dive d
 ## 📫 Where to find me
 
 - **Telegram:** [@ebssy](https://t.me/ebssy)
-- **Email:** [e04579138@gmail.com](mailto:e04579138@gmail.com)
-- **GitHub:** [github.com/f4ga](https://github.com/f4ga)
 - **Habr:** [norzy](https://habr.com/ru/users/norzy/)
 
 ---
