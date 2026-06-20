@@ -14,7 +14,7 @@
 <div align="center">
   <a href="https://github.com/f4ga?tab=repositories"><img src="https://img.shields.io/badge/📁_Repos-12100E?style=for-the-badge&logo=github&logoColor=white" /></a>
   <a href="https://habr.com/ru/users/norzy/"><img src="https://img.shields.io/badge/Habr-5F9DBA?style=for-the-badge&labelColor=5F9DBA&color=5F9DBA" /></a>
-  <a href="https://t.me/ebssy"><img src="https://img.shields.io/badge/💬_Telegram-2CA5E0?style-for-the-badge&logo=telegram&logoColor=white" /></a>
+  <a href="https://t.me/ebssy"><img src="https://img.shields.io/badge/💬_Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" /></a>
   <a href="mailto:e04579138@gmail.com"><img src="https://img.shields.io/badge/📧_Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
   <a href="https://github.com/f4ga"><img src="https://img.shields.io/badge/⭐_Follow-FF007F?style=for-the-badge&logo=github&logoColor=white" /></a>
 </div>
@@ -28,20 +28,26 @@ I don't wrap existing solutions; I read production code (BadgerDB, PebbleDB, Bol
 
 🟣 **ScoriaDB** — LSM‑based key‑value store in pure Go.  
 MVCC, ACID transactions, Column Families, WAL with Group Commit.  
-Reads at **6.6M ops/s** (150 ns), writes at **1.43M ops/s** with full fsync.  
+Reads at **7.1M ops/s** (140 ns), writes at **1.33M ops/s** with full fsync.  
+WAL writes at **12.4M ops/s** with Group Commit (80.8 ns).  
 Crash recovery in milliseconds (Pebble: 9s, BadgerDB: 12s).  
 *This taught me: durability is not optional, fsync is expensive but you can amortize it, and Go can be as fast as C++ when you stop adding layers.*
 
 🔵 **ZeroRaft** — Raft consensus on raw syscalls.  
 No `net` package. `socket()`, `bind()`, `listen()`, `epoll`, non‑blocking I/O, single‑threaded event loop.  
-Three‑node cluster in Docker, PCAP export for Wireshark, `/chaos` endpoint for packet loss injection.  
+Three‑node cluster in Docker, leader election in 150–300 ms, PCAP export for Wireshark, `/chaos` endpoint for packet loss injection.  
 *This taught me: epoll, the Linux networking stack, and how distributed consensus actually works under the hood.*
 
 🟢 **Scorix** — log analyzer built on top of ScoriaDB.  
 Filters millions of log lines by time, level, JSON fields. Live tail, percentiles, gRPC server mode.  
 Single binary, no dependencies.  
 *This taught me: building practical tools on top of my own storage engine, and that dogfooding catches bugs fast.*
-ing, Pytest >85%.
+
+📝 **Articles:**  
+- [How I added Group Commit to my LSM database in Go](https://habr.com/p/1043820/)  
+- [How I wrote an LSM engine with MVCC and Value Log in pure Go](https://habr.com/p/1032208/)
+
+---
 
 ## 🛠️ Tech stack
 
@@ -84,6 +90,7 @@ ing, Pytest >85%.
 
 - **Telegram:** [@ebssy](https://t.me/ebssy)
 - **Habr:** [norzy](https://habr.com/ru/users/norzy/)
+- **Email:** e04579138@gmail.com
 
 ---
 
