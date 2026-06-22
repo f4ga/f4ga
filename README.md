@@ -28,11 +28,10 @@ I don't wrap existing solutions; I read production code (BadgerDB, PebbleDB, Bol
 
 🟣 **ScoriaDB** — LSM‑based key‑value store in pure Go.  
 MVCC, ACID transactions, Column Families, Zero‑copy Value Log, WAL with Group Commit.  
-Reads at **7.1M ops/s** (140 ns), writes at **1.51M ops/s** with full fsync.  
+Reads at **7.1M ops/s** (140 ns), writes at **1.51M ops/s** with Group Commit (662 ns).  
 4KB value reads at **1.25M ops/s** — zero‑copy from mmap, 5 allocs/op (was 8).  
-WAL writes at **2.29M ops/s** with sync (436 ns).  
+WAL sync writes at **2.29M ops/s** (436 ns), Group Commit at **12.4M ops/s** (80.8 ns).  
 Crash recovery in <1 second (Pebble: 9s, BadgerDB: 12s).  
-*This taught me: zero‑copy is not optional for large values, fsync is expensive but amortizable, reference counting in Go is safe when done right.*
 
 🔵 **ZeroRaft** — Raft consensus on raw syscalls.  
 No `net` package. `socket()`, `bind()`, `listen()`, `epoll`, non‑blocking I/O, single‑threaded event loop.  
