@@ -27,11 +27,12 @@ I build systems from scratch — storage engines, consensus protocols, CLI tools
 I don't wrap existing solutions; I read production code (BadgerDB, PebbleDB, BoltDB) and then write my own.
 
 🟣 **ScoriaDB** — LSM‑based key‑value store in pure Go.  
-MVCC, ACID transactions, Column Families, WAL with Group Commit.  
-Reads at **7.1M ops/s** (140 ns), writes at **1.33M ops/s** with full fsync.  
-WAL writes at **12.4M ops/s** with Group Commit (80.8 ns).  
-Crash recovery in milliseconds (Pebble: 9s, BadgerDB: 12s).  
-*This taught me: durability is not optional, fsync is expensive but you can amortize it, and Go can be as fast as C++ when you stop adding layers.*
+MVCC, ACID transactions, Column Families, Zero‑copy Value Log, WAL with Group Commit.  
+Reads at **7.1M ops/s** (140 ns), writes at **1.51M ops/s** with full fsync.  
+4KB value reads at **1.25M ops/s** — zero‑copy from mmap, 5 allocs/op (was 8).  
+WAL writes at **2.29M ops/s** with sync (436 ns).  
+Crash recovery in <1 second (Pebble: 9s, BadgerDB: 12s).  
+*This taught me: zero‑copy is not optional for large values, fsync is expensive but amortizable, reference counting in Go is safe when done right.*
 
 🔵 **ZeroRaft** — Raft consensus on raw syscalls.  
 No `net` package. `socket()`, `bind()`, `listen()`, `epoll`, non‑blocking I/O, single‑threaded event loop.  
@@ -45,7 +46,8 @@ Single binary, no dependencies.
 
 📝 **Articles:**  
 - [How I added Group Commit to my LSM database in Go](https://habr.com/p/1043820/)  
-- [How I wrote an LSM engine with MVCC and Value Log in pure Go](https://habr.com/p/1032208/)
+- [How I wrote an LSM engine with MVCC and Value Log in pure Go](https://habr.com/p/1032208/)  
+- [How I made VLog zero‑copy and got +487% faster reads](https://habr.com/p/—link—) *(coming soon)*
 
 ---
 
@@ -56,7 +58,7 @@ Single binary, no dependencies.
 - **Python** – FastAPI, aiogram, Celery, RAG pipelines
 
 ### Storage & infrastructure
-- **LSM engines** – MemTable, SSTable, Leveled compaction, WAL, Value Log, MVCC
+- **LSM engines** – MemTable, SSTable, Leveled compaction, WAL, Value Log, MVCC, Zero‑copy VLog
 - **Raft** – from scratch on syscalls
 - **PostgreSQL** – pgvector, tsvector, complex queries, migrations
 - **Redis** – caching, pub/sub, task queues
