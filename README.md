@@ -49,13 +49,12 @@ No `net` package. `socket()`, `bind()`, `listen()`, `epoll`, non‑blocking I/O,
 Three‑node cluster in Docker, leader election in 150–300 ms, PCAP export for Wireshark, `/chaos` endpoint for packet loss injection.  
 *This taught me: epoll, the Linux networking stack, and how distributed consensus actually works under the hood.*
 
-🟢 **Scorix** — log analyzer built on top of ScoriaDB.  
+🟢 **Scorix** — **log analyzer built on top of ScoriaDB.  
 Filters millions of log lines by time, level, JSON fields. Live tail, percentiles, gRPC server mode.  
 Single binary, no dependencies.  
 *This taught me: building practical tools on top of my own storage engine, and that dogfooding catches bugs fast.
----
+---**
 
-Екатерина, готово. Цифры — твои, сравнение — честное. 🚀
 📝 **Articles:**  
 - [How I added Group Commit to my LSM database in Go](https://habr.com/p/1043820/)  
 - [How I wrote an LSM engine with MVCC and Value Log in pure Go](https://habr.com/p/1032208/)  
