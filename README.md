@@ -38,7 +38,7 @@ MVCC, ACID transactions, Column Families, Zero‑copy Value Log, WAL with Group 
 
 | Database | Reads | Writes | ACID | MVCC |
 |----------|-------|--------|------|------|
-| **ScoriaDB** | **18.4M ops/s** | **2.92M ops/s** | ✅ | ✅ |
+| **ScoriaDB** | **47M ops/s** | **2.92M ops/s** | ✅ | ✅ |
 | BadgerDB | 400K ops/s | 171K ops/s | ✅ | ❌ |
 | Pebble | 1M ops/s | 472K ops/s | ❌ | ❌ |
 | RocksDB | 1.06M ops/s | 356K ops/s | ❌ | ❌ |
@@ -54,13 +54,6 @@ Filters millions of log lines by time, level, JSON fields. Live tail, percentile
 Single binary, no dependencies.  
 *This taught me: building practical tools on top of my own storage engine, and that dogfooding catches bugs fast.
 ---**
-
-📝 **Articles:**  
-- [How I added Group Commit to my LSM database in Go](https://habr.com/p/1043820/)  
-- [How I wrote an LSM engine with MVCC and Value Log in pure Go](https://habr.com/p/1032208/)  
-- [How I made VLog zero‑copy and got +487% faster reads](https://habr.com/p/—link—) *(coming soon)*
-
----
 
 ## 🛠️ Tech stack
 
