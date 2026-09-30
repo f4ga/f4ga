@@ -1,127 +1,92 @@
-<!-- 🌌 1. HERO — волна + печатающийся текст внутри -->
-<div align="center" style="position: relative; width: 100%; min-height: 280px; overflow: hidden;">
-  <div style="position: absolute; top: 0; left: 0; width: 100%; z-index: 0;">
-    <img src="https://capsule-render.vercel.app/api?type=waving&height=80&color=gradient&customColorList=12,18,24,27,30&text=%20&fontSize=50&fontAlignY=35&desc=&animation=fadeIn" width="100%" style="display: block;" />
-  </div>
-  <div style="position: relative; z-index: 1; display: flex; justify-content: center; align-items: center; height: 280px;">
-    <a href="https://git.io/typing-svg">
-      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=32&duration=4000&pause=1000&color=FF007F&center=true&vCenter=true&width=800&height=100&lines=%24+whoami+%3E+f4ga;Backend+%7C+Systems+Programming;Go+%7C+Python+%7C+LSM+%7C+Raft" alt="Typing SVG" />
-    </a>
-  </div>
-</div>
-
-<!-- 🎯 2. CONTACT -->
 <div align="center">
-  <a href="https://github.com/f4ga?tab=repositories"><img src="https://img.shields.io/badge/📁_Repos-12100E?style=for-the-badge&logo=github&logoColor=white" /></a>
-  <a href="https://habr.com/ru/users/norzy/"><img src="https://img.shields.io/badge/Habr-5F9DBA?style=for-the-badge&labelColor=5F9DBA&color=5F9DBA" /></a>
-  <a href="https://t.me/ebssy"><img src="https://img.shields.io/badge/💬_Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" /></a>
-  <a href="mailto:e04579138@gmail.com"><img src="https://img.shields.io/badge/📧_Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-  <a href="https://github.com/f4ga"><img src="https://img.shields.io/badge/⭐_Follow-FF007F?style=for-the-badge&logo=github&logoColor=white" /></a>
+
+# f4ga
+
+**Бэкенд-разработчик · Go · Хранилища данных · Распределённые системы**
+
+[![GitHub](https://img.shields.io/badge/github-f4ga-181717?style=flat-square&logo=github)](https://github.com/f4ga)
+[![Telegram](https://img.shields.io/badge/telegram-@ebssy-2CA5E0?style=flat-square&logo=telegram&logoColor=white)](https://t.me/ebssy)
+[![Habr](https://img.shields.io/badge/habr-norzy-5F9DBA?style=flat-square)](https://habr.com/ru/users/norzy/)
+[![Email](https://img.shields.io/badge/email-e04579138@gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:e04579138@gmail.com)
+
 </div>
-
-## 👩‍💻 About me
-
-I build systems from scratch — storage engines, consensus protocols, CLI tools.  
-I don't wrap existing solutions; I read production code (BadgerDB, PebbleDB, BoltDB) and then write my own.
-
-🟣 **ScoriaDB** — LSM‑based key‑value store in pure Go.  
-MVCC, ACID transactions, Column Families, Zero‑copy Value Log, WAL with Group Commit.  
-
-**Performance highlights:**
-- **18.4M reads/sec** — 76 ns latency (fastest among embedded Go databases)
-- **2.92M writes/sec** — 432 ns latency (6× faster than Pebble, 17× faster than BadgerDB)
-- **4KB value reads** at **1.25M ops/s** — zero‑copy from mmap, 5 allocs/op (was 8)
-- **WAL Group Commit** at **12.4M ops/s** — 80.8 ns per operation
-- **Crash recovery** in **<1 second** (Pebble: 9s, BadgerDB: 12s)
-
-**vs industry leaders:**
-
-| Database | Reads | Writes | ACID | MVCC |
-|----------|-------|--------|------|------|
-| **ScoriaDB** | **47M ops/s** | **2.92M ops/s** | ✅ | ✅ |
-| BadgerDB | 400K ops/s | 171K ops/s | ✅ | ❌ |
-| Pebble | 1M ops/s | 472K ops/s | ❌ | ❌ |
-| RocksDB | 1.06M ops/s | 356K ops/s | ❌ | ❌ |
-| LMDB | 1.45M ops/s | 502K ops/s | ✅ | ❌ |
-
-🔵 **ZeroRaft** — Raft consensus on raw syscalls.  
-No `net` package. `socket()`, `bind()`, `listen()`, `epoll`, non‑blocking I/O, single‑threaded event loop.  
-Three‑node cluster in Docker, leader election in 150–300 ms, PCAP export for Wireshark, `/chaos` endpoint for packet loss injection.  
-*This taught me: epoll, the Linux networking stack, and how distributed consensus actually works under the hood.*
-
-🟢 **Scorix** — **log analyzer built on top of ScoriaDB.  
-Filters millions of log lines by time, level, JSON fields. Live tail, percentiles, gRPC server mode.  
-Single binary, no dependencies.  
-*This taught me: building practical tools on top of my own storage engine, and that dogfooding catches bugs fast.
----**
-
-## 🛠️ Tech stack
-
-### Languages
-- **Go** – daily driver (concurrency, syscalls, profiling, benchmarks)
-- **Python** – FastAPI, aiogram, Celery, RAG pipelines
-
-### Storage & infrastructure
-- **LSM engines** – MemTable, SSTable, Leveled compaction, WAL, Value Log, MVCC, Zero‑copy VLog
-- **Raft** – from scratch on syscalls
-- **PostgreSQL** – pgvector, tsvector, complex queries, migrations
-- **Redis** – caching, pub/sub, task queues
-- **Docker / Compose** – multi‑container setups
-- **Linux** – epoll, sockets, filesystems, signals
-
-### APIs & protocols
-- **gRPC** – Protobuf, streaming, interceptors
-- **REST** – Gin, FastAPI
-- **WebSocket** – real‑time notifications
-- **CLI** – Cobra, interactive shells
-
-### Engineering culture
-- **Unit tests + integration + stress** – 100% coverage for critical paths
-- **Benchmarks** – CI fails on >5% regression
-- **Race detector** – mandatory for all concurrent code
-- **Profiling** – pprof, flamegraphs
-- **Documentation** – every project has README + examples (Python, Java, C++)
 
 ---
 
-## 📊 GitHub Stats
+Пишу бэкенд на Go. Изучаю хранилища — LSM-деревья, WAL, MVCC, Raft. Предпочитаю предсказуемость: не «в среднем быстро», а «быстро всегда». 
+---
 
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=f4ga&theme=radical&hide_border=true&background=0d1117&stroke=FF007F&ring=FF007F&fire=FF007F&currStreakLabel=FF007F" alt="streak stats" />
-  <br/>
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=f4ga&theme=tokyo-night&hide_border=true&area=true&color=4cbded&line=4cbded&point=ffffff" />
-</div>
+### [ScoriaDB](https://github.com/f4ga/ScoriaDB)
+*Встраиваемое LSM key-value хранилище на чистом Go*
 
-## 📫 Where to find me
+MVCC, ACID-транзакции, колоночные семейства, zero-copy value log, WAL с group commit. 480+ тестов, включая crash-recovery и `-race`.
 
-- **Telegram:** [@ebssy](https://t.me/ebssy)
-- **Habr:** [norzy](https://habr.com/ru/users/norzy/)
-- **Email:** e04579138@gmail.com
+- 40.6 млн чтений/с на ноутбуке за $400 — без аллокаций в куче, GC не мешает
+- Запись с fsync на каждую транзакцию — 375K ops/s, ~187× быстрее RocksDB в строгом режиме
+- SSD живёт ~5× дольше за счёт низкого write amplification
+- Работает на ARM64
 
 ---
 
-<!-- 🧬 ASCII-ART (спойлер) -->
-<details>
-  <summary><b>🕹️ $> DISPLAY MATRIX</b></summary>
-  <br />
-  <div align="center">
-    <pre style="font-family: monospace; color: #c9d1d9; background: none; border: none; display: inline-block; text-align: left;">
-░▒▓█▓▒░      ░▒▓█▓▒░░▒▓█▓▒░░▒▓███████▓▒░▒▓████████▓▒░       ░▒▓██████▓▒░░▒▓███████▓▒░ ░▒▓██████▓▒░░▒▓█▓▒░░▒▓█▓▒░             ░▒▓███████▓▒░▒▓████████▓▒░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░ 
-░▒▓█▓▒░      ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░      ░▒▓█▓▒░             ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░             ░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░   ░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░ 
-░▒▓█▓▒░      ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░      ░▒▓█▓▒░             ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░      ░▒▓█▓▒░░▒▓█▓▒░             ░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░   ░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░ 
-░▒▓█▓▒░      ░▒▓█▓▒░░▒▓█▓▒░░▒▓██████▓▒░░▒▓██████▓▒░        ░▒▓████████▓▒░▒▓███████▓▒░░▒▓█▓▒░      ░▒▓████████▓▒░             ░▒▓███████▓▒░  ░▒▓█▓▒░   ░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░ 
-░▒▓█▓▒░      ░▒▓█▓▒░░▒▓█▓▒░      ░▒▓█▓▒░▒▓█▓▒░             ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░      ░▒▓█▓▒░░▒▓█▓▒░▒▓██▓▒░      ░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░   ░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░ 
-░▒▓█▓▒░      ░▒▓█▓▒░░▒▓█▓▒░      ░▒▓█▓▒░▒▓█▓▒░             ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓██▓▒░      ░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░   ░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░ 
-░▒▓█▓▒░       ░▒▓██████▓▒░░▒▓███████▓▒░░▒▓████████▓▒░      ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░░▒▓██████▓▒░░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░      ░▒▓███████▓▒░  ░▒▓█▓▒░    ░▒▓█████████████▓▒░  
-    </pre>
-  </div>
-</details>
+### [TephraKV](https://github.com/f4ga/TephraKV)
+*Дизайн распределённого KV-хранилища*
 
-<br />
+Архитектурный документ, по которому уже можно писать код. Цель — не средняя задержка, а предсказуемость в худшем случае (p999).
 
-<!-- 👁️ VISITOR COUNTER -->
+- **Arena на mmap** — данные вне кучи, GC не трогает горячий путь
+- **Lock-free skiplist** и **epoch-based reclamation**
+- **WAL как Raft-лог** — один журнал вместо двух
+- **Multi-Raft на Dragonboat** вместо внешнего etcd
+- **KV separation по WiscKey** — ключи в LSM, значения отдельно
+
+Каждое решение — ADR с честным указанием цены. Статус: v0.1 в разработке.
+
+---
+
+### [ZeroRaft](https://github.com/f4ga/ZeroRaft)
+*Raft на голых системных вызовах*
+
+Без пакета `net`: только `socket()`, `bind()`, `epoll`, неблокирующий I/O и однопоточный event loop. Три узла в Docker, выборы лидера за 150–300 мс, экспорт PCAP для Wireshark, `/chaos` для имитации потерь пакетов.
+
+---
+
+### [Scorix](https://github.com/f4ga/Scorix)
+*Анализатор логов поверх ScoriaDB*
+
+Фильтрация миллионов строк по времени, уровню и JSON-полям. Live tail, перцентили, gRPC-сервер. Один бинарник, без зависимостей времени выполнения.
+
+---
+
 <div align="center">
-  <a href="https://visitor-badge.laobi.icu/badge?page_id=f4ga.f4ga">
-    <img src="https://visitor-badge.laobi.icu/badge?page_id=f4ga.f4ga&left_color=black&right_color=FF007F&left_text=Profile%20Views" />
-  </a>
+
+**Стек**
+
+</div>
+
+| | |
+|---|---|
+| **Языки** | Go (основной) · Python (FastAPI, aiogram, Celery, RAG, Hugging Face) |
+| **Хранилища** | Внутренности LSM: MemTable, SSTable, leveled compaction, WAL, MVCC, value log |
+| **Распределённые системы** | Raft с нуля · Multi-Raft |
+| **Инфраструктура** | PostgreSQL (pgvector, tsvector) · Redis · Docker/Compose · Linux |
+| **API** | gRPC · REST · WebSocket · CLI на Cobra |
+| **Практика** | Unit, integration, crash-тесты · benchmark CI с порогом регрессии · `-race` · pprof |
+
+В планах микроконтроллеры на С.
+---
+
+<div align="center">
+
+**GitHub Stats**
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=f4ga&theme=radical&hide_border=true&background=0d1117&stroke=FF007F&ring=FF007F&fire=FF007F&currStreakLabel=FF007F" alt="streak stats" />
+<br/>
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=f4ga&theme=tokyo-night&hide_border=true&area=true&color=4cbded&line=4cbded&point=ffffff" />
+
+</div>
+
+---
+
+<div align="center">
+<sub>GitHub <a href="https://github.com/f4ga">f4ga</a> · Telegram <a href="https://t.me/ebssy">@ebssy</a> · Habr <a href="https://habr.com/ru/users/norzy/">norzy</a> · <a href="mailto:e04579138@gmail.com">e04579138@gmail.com</a></sub>
 </div>
