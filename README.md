@@ -1,8 +1,8 @@
 <div align="center">
 
-# f4ga
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1a2e,100:0d1117&height=120&section=header&text=f4ga&fontSize=48&fontColor=ffffff&fontAlignY=38&desc=Backend%20%C2%B7%20Go%20%C2%B7%20Storage%20Engines%20%C2%B7%20Distributed%20Systems&descAlignY=58&descSize=14&descColor=8b949e" width="100%" />
 
-**Бэкенд-разработчик · Go · Хранилища данных · Распределённые системы**
+<br/>
 
 [![GitHub](https://img.shields.io/badge/github-f4ga-181717?style=flat-square&logo=github)](https://github.com/f4ga)
 [![Telegram](https://img.shields.io/badge/telegram-@ebssy-2CA5E0?style=flat-square&logo=telegram&logoColor=white)](https://t.me/ebssy)
@@ -13,7 +13,8 @@
 
 ---
 
-Пишу бэкенд на Go. Изучаю хранилища — LSM-деревья, WAL, MVCC, Raft. Предпочитаю предсказуемость: не «в среднем быстро», а «быстро всегда». 
+Пишу бэкенд на Go. Изучаю хранилища — LSM-деревья, WAL, MVCC, Raft. Предпочитаю предсказуемость: не «в среднем быстро», а «быстро всегда».
+
 ---
 
 ### [ScoriaDB](https://github.com/f4ga/ScoriaDB)
@@ -33,11 +34,11 @@ MVCC, ACID-транзакции, колоночные семейства, zero-c
 
 Архитектурный документ, по которому уже можно писать код. Цель — не средняя задержка, а предсказуемость в худшем случае (p999).
 
-- **Arena на mmap** — данные вне кучи, GC не трогает горячий путь
-- **Lock-free skiplist** и **epoch-based reclamation**
-- **WAL как Raft-лог** — один журнал вместо двух
-- **Multi-Raft на Dragonboat** вместо внешнего etcd
-- **KV separation по WiscKey** — ключи в LSM, значения отдельно
+- Arena на mmap — данные вне кучи, GC не трогает горячий путь
+- Lock-free skiplist и epoch-based reclamation
+- WAL как Raft-лог — один журнал вместо двух
+- Multi-Raft на Dragonboat вместо внешнего etcd
+- KV separation по WiscKey — ключи в LSM, значения отдельно
 
 Каждое решение — ADR с честным указанием цены. Статус: v0.1 в разработке.
 
@@ -65,14 +66,15 @@ MVCC, ACID-транзакции, колоночные семейства, zero-c
 
 | | |
 |---|---|
-| **Языки** | Go (основной) · Python (FastAPI, aiogram, Celery, RAG, Hugging Face) |
-| **Хранилища** | Внутренности LSM: MemTable, SSTable, leveled compaction, WAL, MVCC, value log |
-| **Распределённые системы** | Raft с нуля · Multi-Raft |
-| **Инфраструктура** | PostgreSQL (pgvector, tsvector) · Redis · Docker/Compose · Linux |
-| **API** | gRPC · REST · WebSocket · CLI на Cobra |
-| **Практика** | Unit, integration, crash-тесты · benchmark CI с порогом регрессии · `-race` · pprof |
+| <img src="https://cdn.simpleicons.org/go/00ADD8" width="16" /> **Языки** | Go (основной) · Python (FastAPI, aiogram, Celery, RAG, Hugging Face) |
+| <img src="https://cdn.simpleicons.org/postgresql/4169E1" width="16" /> **Хранилища** | Внутренности LSM: MemTable, SSTable, leveled compaction, WAL, MVCC, value log |
+| <img src="https://cdn.simpleicons.org/etcd/419EDA" width="16" /> **Распределённые системы** | Raft с нуля · Multi-Raft |
+| <img src="https://cdn.simpleicons.org/docker/2496ED" width="16" /> **Инфраструктура** | PostgreSQL (pgvector, tsvector) · Redis · Docker/Compose · Linux |
+| <img src="https://cdn.simpleicons.org/grpc/244c5a" width="16" /> **API** | gRPC · REST · WebSocket · CLI на Cobra |
+| <img src="https://cdn.simpleicons.org/linux/FCC624" width="16" /> **Практика** | Unit, integration, crash-тесты · benchmark CI · `-race` · pprof |
 
-В планах микроконтроллеры на С.
+В планах — микроконтроллеры на C.
+
 ---
 
 <div align="center">
